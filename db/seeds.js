@@ -17,7 +17,7 @@ const users = [
 //   ('Janet', 'Reynolds', ),
 //   ('Crane', 'Henderson', ),
 //   ('Charles', 'LeRoi', ),
-//   ('Katherine', 'Mansfield',),
+//   ('Katherine', 'Mansfield',)
 
 
 
