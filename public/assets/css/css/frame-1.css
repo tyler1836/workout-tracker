@@ -1,0 +1,200 @@
+/* screen - frame-1 */
+
+.frame-1 {
+  background-color: var(--black);
+  height: 1023px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 1440px;
+}
+
+.frame-1 .section-1-VxPVnb {
+  background-color: transparent;
+  height: 776px;
+  left: 97px;
+  position: absolute;
+  top: 152px;
+  width: 1202px;
+}
+
+.frame-1 .group-76-VxPVnb {
+  background-color: transparent;
+  height: 98px;
+  left: 1089px;
+  position: absolute;
+  top: 656px;
+  width: 197px;
+}
+
+.frame-1 .rectangle-13-PCxQga {
+  background-color: #c82bef;
+  border-radius: 12px;
+  height: 98px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 193px;
+}
+
+.frame-1 .title-PCxQga {
+  background-color: transparent;
+  color: var(--text-1);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xxxl);
+  font-style: normal;
+  font-weight: 600;
+  height: auto;
+  left: 34px;
+  letter-spacing: 1.00px;
+  line-height: 40px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 20px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.frame-1 .free-workout-videos-PCxQga {
+  background-color: transparent;
+  color: var(--text-2);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 19px;
+  letter-spacing: 1.00px;
+  line-height: 20px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 66px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.frame-1 .nav-VxPVnb {
+  background-color: transparent;
+  height: 19px;
+  left: 64px;
+  position: absolute;
+  top: 52px;
+  width: 1265px;
+}
+
+.frame-1 .workouts-AUytTx {
+  background-color: transparent;
+  height: auto;
+  left: 878px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 3px;
+  width: auto;
+}
+
+.frame-1 .workout-AUytTx {
+  background-color: transparent;
+  color: var(--text-1);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  width: auto;
+}
+
+.frame-1 .programs-AUytTx {
+  background-color: transparent;
+  height: auto;
+  left: 957px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 3px;
+  width: auto;
+}
+
+.frame-1 .healthy-living-AUytTx {
+  background-color: transparent;
+  height: auto;
+  left: 1035px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 3px;
+  width: auto;
+}
+
+.frame-1 .contact-AUytTx {
+  background-color: transparent;
+  height: auto;
+  left: 1142px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 3px;
+  width: auto;
+}
+
+.frame-1 .about-AUytTx {
+  background-color: transparent;
+  height: auto;
+  left: 1211px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 2px;
+  width: auto;
+}
+
+.frame-1 .button-VxPVnb {
+  background-color: #f7c23a;
+  border-radius: 10px;
+  height: 70px;
+  left: 312px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 676px;
+  width: 109px;
+}
+
+.frame-1 .join-now-i208402203164-qJElCW {
+  background-color: transparent;
+  color: #ffffff;
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 600;
+  height: auto;
+  left: 25px;
+  letter-spacing: 1.00px;
+  line-height: 22px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 24px;
+  white-space: nowrap;
+  width: auto;
+}

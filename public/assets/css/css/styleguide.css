@@ -1,0 +1,21 @@
+:root { 
+  --black: #171717;
+  --text-1: #fafaf9;
+  --text-2: #efede8a6;
+ 
+  --font-size-l: 14px;
+  --font-size-m: 12px;
+  --font-size-xl: 16px;
+  --font-size-xxl: 18px;
+  --font-size-xxxl: 40px;
+ 
+  --font-family-inter: "Inter", Helvetica;
+  --font-family-poppins: "Poppins", Helvetica;
+}
+.inter-normal-alabaster-12px {
+  color: var(--text-1);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
