@@ -1,11 +1,11 @@
 /* Black Background */
 
-
-position: relative;
+*
+{position: relative;
 width: 1440px;
-height: 1023px;
+height: 1023px;}
 
-background: #171717;
+{background: #171717;}
 
 /* Nav */
 
@@ -16,3 +16,234 @@ height: 19px;
 left: 64px;
 top: 52px;
 }
+
+/* Body */
+
+body
+{position: absolute;
+width: 1193.2px;
+height: 768px;
+left: 103px;
+top: 152px;}
+
+{filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));}
+
+/* workout tracker Title Hero */
+
+
+{position: absolute;
+width: 1057px;
+height: 335px;
+left: 103px;
+top: 281px;}
+
+{font-family: HammersmithOne;
+font-style: normal;
+font-weight: normal;
+font-size: 200px;
+line-height: 170px;}
+/* or 85% */
+
+{letter-spacing: -2px;
+text-transform: uppercase;}
+
+/* Text 1 */
+
+{color: #FAFAF9;}
+
+/* Ellipse 1 */
+
+
+{position: absolute;
+width: 23.79px;
+height: 24.16px;
+left: 889.59px;
+top: 558.65px;}
+
+{background: #D95C2D;}
+
+/* running-stick-figure */
+
+
+{position: absolute;
+width: 383.81px;
+height: 386.51px;
+left: 912.39px;
+top: 152px;}
+
+{mix-blend-mode: lighten;
+border: 1px solid #000000;
+box-sizing: border-box;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));}
+
+
+/* Make a plan. Stick with it. */
+
+
+{position: absolute;
+width: 560px;
+height: 27px;
+left: 141px;
+top: 616px;}
+
+/* body-text */
+
+{font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;}
+/* or 150% */
+
+{letter-spacing: 0.5px;}
+
+{color: #FFFFFF;}
+
+
+/* Button Join Now*/
+
+
+/* Auto Layout */
+
+{display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 24px 25px;}
+
+{position: absolute;
+width: 148px;
+height: 70px;
+left: 141px;
+top: 676px;}
+
+{background: #E6533C;
+border-radius: 10px;}
+
+/* Button */
+
+
+/* Auto Layout */
+
+{display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 24px 25px;}
+
+{position: absolute;
+width: 109px;
+height: 70px;
+left: 312px;
+top: 676px;}
+
+{background: #F8C33B;
+border-radius: 10px;}
+
+/* Purple Square Group 76 */
+
+
+{position: absolute;
+width: 193px;
+height: 98px;
+left: 1089px;
+top: 651px;}
+
+
+/* 300+ */
+
+
+{position: absolute;
+left: 17.62%;
+right: 25.39%;
+top: 20.41%;
+bottom: 38.78%;}
+
+{font-family: Inter;
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 40px;}
+/* identical to box height, or 100% */
+
+{letter-spacing: 1px;}
+
+/* Text 1 */
+
+{color: #FAFAF9;}
+
+/* Free Workout Videos */
+
+
+position: absolute;
+left: 9.84%;
+right: 9.33%;
+top: 67.35%;
+bottom: 12.24%;
+
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+letter-spacing: 1px;
+
+/* Text 2 */
+
+color: rgba(239, 237, 232, 0.65);
+
+
+/* Rectangle Green */
+
+
+position: absolute;
+width: 178.42px;
+height: 110.72px;
+left: 638px;
+top: 805px;
+
+
+/* YOU CAN */
+
+
+position: absolute;
+left: 21.3%;
+right: 7.04%;
+top: 5.17%;
+bottom: 49.38%;
+
+font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 50px;
+/* or 104% */
+
+letter-spacing: -5px;
+text-transform: uppercase;
+
+/* Text 1 */
+
+color: #FAFAF9;
+
+/* Rectangle 17 */
+
+
+position: absolute;
+width: 448px;
+height: 141px;
+left: 837px;
+top: 779px;
+
+background: #3099BA;
+border-radius: 12px;
+
+
+/* Group 22 */
+
+
+position: absolute;
+width: 350.42px;
+height: 60.82px;
+left: 869px;
+top: 805px;
