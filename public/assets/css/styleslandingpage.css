@@ -1,0 +1,18 @@
+/* Black Background */
+
+
+position: relative;
+width: 1440px;
+height: 1023px;
+
+background: #171717;
+
+/* Nav */
+
+nav {
+ position: absolute;
+width: 1253px;
+height: 19px;
+left: 64px;
+top: 52px;
+}
