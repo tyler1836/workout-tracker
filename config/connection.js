@@ -9,4 +9,4 @@ const sequelize = new Sequelize('notetaker_db', process.env.DB_USER, process.env
   port: 3306
 });
 
-module.exports = sequelize;
+module.exports = sequelize; 
