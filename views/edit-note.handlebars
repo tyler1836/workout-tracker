@@ -1,0 +1,15 @@
+<div class="card">
+    <h3 class="card-header">Edit note</h3>
+    <form class="card-body edit-note-form">
+        <label for="note-title" class="form-label">Title</label>
+        <input name="note-title" type="text" value="{{note.title}}" class="form-input" />
+        <label class="form-label" for="content">Content</label>
+        <input name="content" type="text" value="{{note.content}}" class="form-input" />
+        <button type="submit" class="btn">Update note</button>
+        <button type="button" class="delete-note-btn btn">Delete note</button>
+    </form>
+</div>
+
+
+<script src="/javascript/edit-note.js"></script>
+<script src="/javascript/delete-note.js"></script>
