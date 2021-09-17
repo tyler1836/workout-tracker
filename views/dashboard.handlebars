@@ -1,14 +1,14 @@
 
-{{#if posts.length}}
+{{#if note.length}}
 <section>
-  <h2>Your Posts</h2>
-    {{#each posts as |post|}}
-      {{> dashboard-postinfo post}}
+  <h2>Your Notes</h2>
+    {{#each note as |note|}}
+      {{> dashboard-noteinfo note}}
     {{/each}}
 
 </section>
 {{/if}}
 
-<button type="submit" class="btn"><a class="link" href="/dashboard/new">+ New Post</a></button>
+<button type="submit" class="btn"><a class="link" href="/dashboard/new">+ New Note</a></button>
 
-<script src="/javascript/add-post.js"></script>
+<script src="/javascript/add-note.js"></script>
