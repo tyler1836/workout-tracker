@@ -12,6 +12,7 @@ router.post('/', (req, res) => {
     if(user){
         return res.redirect('/');
     };
+    alksdjflkjgl;ka
 
     router.post('/login', (req, res) => {
         // expects {email: password:}
