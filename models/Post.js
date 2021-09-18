@@ -21,13 +21,13 @@ Post.init(
 
 
         body: {
-            type: DataTypes.String,
+            type: DataTypes.STRING,
             allowNull: false,
         },
 
 
         user_id: {
-            type: DataTypes.Integer,
+            type: DataTypes.INTEGER,
             references: {
                 key: "id",
                 model: "user",
