@@ -1,23 +1,25 @@
-/* screen - signuppage */
+/* screen - logoutpageseeyousoon */
 
-.signuppage {
+.logoutpageseeyousoon {
   align-items: center;
   background-color: var(--black);
   display: flex;
   flex-direction: column;
   height: 1023px;
-  padding: 55px 34px;
+  overflow: hidden;
+  padding: 58px 0;
   width: 1649px;
 }
 
-.signuppage .flex-row {
-  align-items: flex-end;
+.logoutpageseeyousoon .flex-row {
+  align-items: flex-start;
   display: flex;
-  margin-left: 11.0px;
-  min-width: 1252px;
+  height: 32px;
+  margin-right: 121.0px;
+  min-width: 1310px;
 }
 
-.signuppage .workout-tracker {
+.logoutpageseeyousoon .workout-tracker {
   cursor: pointer;
   height: 19px;
   pointer-events: auto;
@@ -25,26 +27,27 @@
   width: 164px;
 }
 
-.signuppage .workout-tracker:hover {
+.logoutpageseeyousoon .workout-tracker:hover {
   transform: scale(1.1);
 }
 
-.signuppage .navbar {
+.logoutpageseeyousoon .navbar {
   align-items: flex-end;
+  align-self: flex-end;
   display: flex;
   height: 23px;
-  margin-left: 695px;
+  margin-left: 753px;
   min-width: 393px;
 }
 
-.signuppage .overlap-group {
+.logoutpageseeyousoon .overlap-group {
   align-self: flex-start;
   height: 22px;
   position: relative;
   width: 170px;
 }
 
-.signuppage .workouts {
+.logoutpageseeyousoon .workouts {
   cursor: pointer;
   height: 15px;
   left: 0;
@@ -55,11 +58,11 @@
   width: 69px;
 }
 
-.signuppage .workouts:hover {
+.logoutpageseeyousoon .workouts:hover {
   transform: scale(1.1);
 }
 
-.signuppage .programs {
+.logoutpageseeyousoon .programs {
   height: 15px;
   left: 85px;
   position: absolute;
@@ -67,7 +70,7 @@
   width: 68px;
 }
 
-.signuppage .programs-1 {
+.logoutpageseeyousoon .programs-1 {
   cursor: pointer;
   height: 15px;
   left: 60px;
@@ -78,11 +81,11 @@
   width: 68px;
 }
 
-.signuppage .programs-1:hover {
+.logoutpageseeyousoon .programs-1:hover {
   transform: scale(1.1);
 }
 
-.signuppage .about {
+.logoutpageseeyousoon .about {
   cursor: pointer;
   height: 15px;
   left: 128px;
@@ -93,11 +96,11 @@
   width: 42px;
 }
 
-.signuppage .about:hover {
+.logoutpageseeyousoon .about:hover {
   transform: scale(1.1);
 }
 
-.signuppage .contact {
+.logoutpageseeyousoon .contact {
   cursor: pointer;
   height: 15px;
   margin-left: 28px;
@@ -106,11 +109,11 @@
   width: 58px;
 }
 
-.signuppage .contact:hover {
+.logoutpageseeyousoon .contact:hover {
   transform: scale(1.1);
 }
 
-.signuppage .overlap-group1 {
+.logoutpageseeyousoon .overlap-group-1 {
   height: 15px;
   margin-bottom: 1px;
   margin-left: 14px;
@@ -118,7 +121,7 @@
   width: 123px;
 }
 
-.signuppage .healthy-living {
+.logoutpageseeyousoon .healthy-living {
   cursor: pointer;
   height: 15px;
   left: 0;
@@ -129,11 +132,11 @@
   width: 97px;
 }
 
-.signuppage .healthy-living:hover {
+.logoutpageseeyousoon .healthy-living:hover {
   transform: scale(1.1);
 }
 
-.signuppage .workouts-1 {
+.logoutpageseeyousoon .workouts-1 {
   cursor: pointer;
   height: 15px;
   left: 54px;
@@ -144,103 +147,73 @@
   width: 69px;
 }
 
-.signuppage .workouts-1:hover {
+.logoutpageseeyousoon .workouts-1:hover {
   transform: scale(1.1);
 }
 
-.signuppage .overlap-group2 {
-  height: 416px;
-  margin-left: 24.91px;
-  margin-top: 151px;
+.logoutpageseeyousoon .overlap-group4 {
+  height: 411px;
+  margin-right: 5.09px;
+  margin-top: 143px;
   position: relative;
-  width: 1238px;
+  width: 1240px;
 }
 
-.signuppage .work-out-tracker-title {
+.logoutpageseeyousoon .work-out-tracker-title {
   height: 359px;
   left: 0;
   position: absolute;
-  top: 57px;
+  top: 52px;
   width: 1057px;
 }
 
-.signuppage .running-stick-f-e-svgrepo-com-1 {
+.logoutpageseeyousoon .running-stick-f-e-svgrepo-com-1 {
   height: 395px;
-  left: 854px;
+  left: 856px;
   mix-blend-mode: lighten;
   position: absolute;
   top: 0;
   width: 384px;
 }
 
-.signuppage .flex-row-1 {
-  align-items: center;
-  align-self: flex-start;
-  display: flex;
-  height: 314px;
-  margin-top: 21px;
-  min-width: 1340px;
-}
-
-.signuppage .flex-col {
+.logoutpageseeyousoon .navbar-1 {
   align-items: flex-end;
   display: flex;
-  flex-direction: column;
-  min-height: 314px;
-  width: 1129px;
+  height: 23px;
+  left: 584px;
+  min-width: 393px;
+  position: absolute;
+  top: 81px;
 }
 
-.signuppage .flex-row-2 {
-  align-items: flex-start;
-  display: flex;
-  min-width: 930px;
-}
-
-.signuppage .email-purple-box {
-  height: 98px;
-  width: 303px;
-}
-
-.signuppage .x-entry {
+.logoutpageseeyousoon .frame-3 {
+  align-items: center;
   background-color: var(--white);
-  border: 0;
-  height: 89px;
-  margin-left: 21px;
-  padding: 0;
-  width: 606px;
-}
-
-.signuppage .flex-row-3 {
-  align-items: flex-start;
   display: flex;
-  height: 95px;
-  margin-top: 12px;
-  min-width: 930px;
+  height: 166px;
+  justify-content: center;
+  margin-right: 117.0px;
+  margin-top: 52px;
+  width: 1036px;
 }
 
-.signuppage .password-green-box {
-  align-self: flex-end;
-  height: 89px;
-  width: 303px;
+.logoutpageseeyousoon .title {
+  color: #000000;
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xxxxxl);
+  font-weight: 600;
+  height: 51px;
+  letter-spacing: 1.00px;
+  line-height: 22px;
+  margin-left: 1px;
+  margin-top: -10px;
+  width: 578px;
 }
 
-.signuppage .featured-in {
+.logoutpageseeyousoon .featured-in {
   align-self: flex-start;
   height: 75px;
-  margin-top: 34px;
+  margin-left: -52px;
+  margin-top: 42px;
   width: 600px;
-}
-
-.signuppage .join-now-button {
-  cursor: pointer;
-  height: 78px;
-  margin-bottom: 110.0px;
-  margin-left: 54px;
-  pointer-events: auto;
-  transition: all 0.2s ease;
-  width: 156px;
-}
-
-.signuppage .join-now-button:hover {
-  transform: scale(1.1);
 }

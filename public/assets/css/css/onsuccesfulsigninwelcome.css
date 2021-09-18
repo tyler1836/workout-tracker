@@ -1,0 +1,223 @@
+/* screen - onsuccesfulsigninwelcome */
+
+.onsuccesfulsigninwelcome {
+  align-items: center;
+  background-color: var(--black);
+  display: flex;
+  flex-direction: column;
+  height: 1023px;
+  overflow: hidden;
+  padding: 58px 0;
+  width: 1649px;
+}
+
+.onsuccesfulsigninwelcome .flex-row {
+  align-items: flex-start;
+  display: flex;
+  height: 33px;
+  margin-right: 68.0px;
+  min-width: 1363px;
+}
+
+.onsuccesfulsigninwelcome .workout-tracker {
+  cursor: pointer;
+  height: 19px;
+  pointer-events: auto;
+  transition: all 0.2s ease;
+  width: 164px;
+}
+
+.onsuccesfulsigninwelcome .workout-tracker:hover {
+  transform: scale(1.1);
+}
+
+.onsuccesfulsigninwelcome .navbar {
+  align-items: flex-end;
+  align-self: flex-end;
+  display: flex;
+  height: 23px;
+  margin-left: 806px;
+  min-width: 393px;
+}
+
+.onsuccesfulsigninwelcome .overlap-group {
+  align-self: flex-start;
+  height: 22px;
+  position: relative;
+  width: 170px;
+}
+
+.onsuccesfulsigninwelcome .workouts {
+  cursor: pointer;
+  height: 15px;
+  left: 0;
+  pointer-events: auto;
+  position: absolute;
+  top: 7px;
+  transition: all 0.2s ease;
+  width: 69px;
+}
+
+.onsuccesfulsigninwelcome .workouts:hover {
+  transform: scale(1.1);
+}
+
+.onsuccesfulsigninwelcome .programs {
+  height: 15px;
+  left: 85px;
+  position: absolute;
+  top: 0;
+  width: 68px;
+}
+
+.onsuccesfulsigninwelcome .programs-1 {
+  cursor: pointer;
+  height: 15px;
+  left: 60px;
+  pointer-events: auto;
+  position: absolute;
+  top: 7px;
+  transition: all 0.2s ease;
+  width: 68px;
+}
+
+.onsuccesfulsigninwelcome .programs-1:hover {
+  transform: scale(1.1);
+}
+
+.onsuccesfulsigninwelcome .about {
+  cursor: pointer;
+  height: 15px;
+  left: 128px;
+  pointer-events: auto;
+  position: absolute;
+  top: 7px;
+  transition: all 0.2s ease;
+  width: 42px;
+}
+
+.onsuccesfulsigninwelcome .about:hover {
+  transform: scale(1.1);
+}
+
+.onsuccesfulsigninwelcome .contact {
+  cursor: pointer;
+  height: 15px;
+  margin-left: 28px;
+  pointer-events: auto;
+  transition: all 0.2s ease;
+  width: 58px;
+}
+
+.onsuccesfulsigninwelcome .contact:hover {
+  transform: scale(1.1);
+}
+
+.onsuccesfulsigninwelcome .overlap-group1 {
+  height: 15px;
+  margin-bottom: 1px;
+  margin-left: 14px;
+  position: relative;
+  width: 123px;
+}
+
+.onsuccesfulsigninwelcome .healthy-living {
+  cursor: pointer;
+  height: 15px;
+  left: 0;
+  pointer-events: auto;
+  position: absolute;
+  top: 0;
+  transition: all 0.2s ease;
+  width: 97px;
+}
+
+.onsuccesfulsigninwelcome .healthy-living:hover {
+  transform: scale(1.1);
+}
+
+.onsuccesfulsigninwelcome .workouts-1 {
+  cursor: pointer;
+  height: 15px;
+  left: 54px;
+  pointer-events: auto;
+  position: absolute;
+  top: 0;
+  transition: all 0.2s ease;
+  width: 69px;
+}
+
+.onsuccesfulsigninwelcome .workouts-1:hover {
+  transform: scale(1.1);
+}
+
+.onsuccesfulsigninwelcome .overlap-group2 {
+  height: 746px;
+  margin-right: 30.09px;
+  margin-top: 50px;
+  position: relative;
+  width: 1181px;
+}
+
+.onsuccesfulsigninwelcome .work-out-tracker-title {
+  height: 719px;
+  left: 0;
+  position: absolute;
+  top: 27px;
+  width: 1057px;
+}
+
+.onsuccesfulsigninwelcome .running-stick-f-e-svgrepo-com-1 {
+  height: 395px;
+  left: 797px;
+  mix-blend-mode: lighten;
+  position: absolute;
+  top: 0;
+  width: 384px;
+}
+
+.onsuccesfulsigninwelcome .group-38 {
+  display: flex;
+  height: 190px;
+  left: 880px;
+  position: absolute;
+  top: 556px;
+  width: 285px;
+}
+
+.onsuccesfulsigninwelcome .login-button {
+  background-color: #26a29b;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px #00000040;
+  cursor: pointer;
+  display: flex;
+  flex: 1;
+  pointer-events: auto;
+  transition: all 0.2s ease;
+  width: 285px;
+}
+
+.onsuccesfulsigninwelcome .login-button:hover {
+  transform: scale(1.1);
+}
+
+.onsuccesfulsigninwelcome .login-i2463618246 {
+  color: var(--white);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xxxxl);
+  font-weight: 600;
+  height: 144px;
+  letter-spacing: 1.00px;
+  margin-left: 25px;
+  margin-top: 24px;
+  text-align: center;
+  width: 242px;
+}
+
+.onsuccesfulsigninwelcome .featured-in {
+  align-self: flex-start;
+  height: 75px;
+  margin-left: -52px;
+  margin-top: 17px;
+  width: 600px;
+}
