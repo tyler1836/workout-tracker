@@ -1,3 +1,4 @@
+#Workout Tracker
 
 ![License Badge](https://img.shields.io/static/v1?label=license&message=MIT&color=brightgreen&style=for-the-badge)
 

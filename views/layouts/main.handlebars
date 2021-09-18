@@ -4,36 +4,37 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Workout and Note Taker</title>
+  <title>Workout Tracker</title>
   <link rel="stylesheet" href="/stylesheets/style.css">
 </head>
 
 <body>
   <div class="wrapper">
-    <header>
-      <h1>
-        <a href="/">Workout and Note Taker</a>
-      </h1>
-      <nav>
-        <a class="link" href="/">Home</a>
-        {{#if loggedIn}}
-        <button id="logout" class="btn-no-style">logout</button>
-        {{else}}
-        <button><a href="/api/users">login</a></button>
-        <button><a href="/api/users">signup</a></button>
-        {{/if}}
-      </nav>
-    </header>
+      <header class="hero">
+          <div>
+            <nav class"nav">
+                    <a class="link" href="/">Home</a>
+                    <a class="link" href="/dashboard">Dashboard</a>
+                    {{#if loggedIn}}
+                    <a class="link" href="/" id="logout">Logout</a>
+                    {{else}}
+                    <a class="link" href="/login">Login</a>
+                    {{/if}}
+                </nav>          
+          </div>
+
+          <h1 class="app-title"><i class="fab "></i>Workout Tracker</h1>
+      </header>
+
     <main>
       {{{ body }}}
     </main>
-    <footer>
-      Thanks for visiting!
-    </footer>
   </div>
-  {{#if loggedIn}}
-  <script src="/javascript/logout.js"></script>
-  {{/if}}
+
+    {{#if loggedIn}}
+    <script src="/javascript/logout.js"></script>
+    {{/if}}
+
 </body>
 
 </html>

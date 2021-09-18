@@ -1,14 +1,14 @@
 
-{{#if note.length}}
+{{#if notes.length}}
 <section>
-  <h2>Your Notes</h2>
-    {{#each note as |note|}}
+  <h2>Your notes</h2>
+    {{#each notes as |note|}}
       {{> dashboard-noteinfo note}}
     {{/each}}
 
 </section>
 {{/if}}
 
-<button type="submit" class="btn"><a class="link" href="/dashboard/new">+ New Note</a></button>
+<button type="submit" class="btn"><a class="link" href="/dashboard/new">+ New note</a></button>
 
 <script src="/javascript/add-note.js"></script>
