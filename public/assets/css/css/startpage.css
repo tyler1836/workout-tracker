@@ -1,0 +1,265 @@
+/* screen - startpage */
+
+.startpage {
+  align-items: flex-end;
+  background-color: var(--black);
+  display: flex;
+  flex-direction: column;
+  height: 1023px;
+  padding: 59px 147px;
+  width: 1649px;
+}
+
+.startpage .flex-row {
+  align-items: flex-start;
+  display: flex;
+  height: 32px;
+  min-width: 1346px;
+}
+
+.startpage .workout-tracker {
+  cursor: pointer;
+  height: 19px;
+  pointer-events: auto;
+  transition: all 0.2s ease;
+  width: 164px;
+}
+
+.startpage .workout-tracker:hover {
+  transform: scale(1.1);
+}
+
+.startpage .navbar {
+  align-items: flex-end;
+  align-self: flex-end;
+  display: flex;
+  height: 23px;
+  margin-left: 789px;
+  min-width: 393px;
+}
+
+.startpage .overlap-group {
+  align-self: flex-start;
+  height: 22px;
+  position: relative;
+  width: 170px;
+}
+
+.startpage .workouts {
+  cursor: pointer;
+  height: 15px;
+  left: 0;
+  pointer-events: auto;
+  position: absolute;
+  top: 7px;
+  transition: all 0.2s ease;
+  width: 69px;
+}
+
+.startpage .workouts:hover {
+  transform: scale(1.1);
+}
+
+.startpage .programs {
+  height: 15px;
+  left: 85px;
+  position: absolute;
+  top: 0;
+  width: 68px;
+}
+
+.startpage .programs-1 {
+  cursor: pointer;
+  height: 15px;
+  left: 60px;
+  pointer-events: auto;
+  position: absolute;
+  top: 7px;
+  transition: all 0.2s ease;
+  width: 68px;
+}
+
+.startpage .programs-1:hover {
+  transform: scale(1.1);
+}
+
+.startpage .about {
+  cursor: pointer;
+  height: 15px;
+  left: 128px;
+  pointer-events: auto;
+  position: absolute;
+  top: 7px;
+  transition: all 0.2s ease;
+  width: 42px;
+}
+
+.startpage .about:hover {
+  transform: scale(1.1);
+}
+
+.startpage .contact {
+  cursor: pointer;
+  height: 15px;
+  margin-left: 28px;
+  pointer-events: auto;
+  transition: all 0.2s ease;
+  width: 58px;
+}
+
+.startpage .contact:hover {
+  transform: scale(1.1);
+}
+
+.startpage .overlap-group1 {
+  height: 15px;
+  margin-bottom: 1px;
+  margin-left: 14px;
+  position: relative;
+  width: 123px;
+}
+
+.startpage .healthy-living {
+  cursor: pointer;
+  height: 15px;
+  left: 0;
+  pointer-events: auto;
+  position: absolute;
+  top: 0;
+  transition: all 0.2s ease;
+  width: 97px;
+}
+
+.startpage .healthy-living:hover {
+  transform: scale(1.1);
+}
+
+.startpage .workouts-1 {
+  cursor: pointer;
+  height: 15px;
+  left: 54px;
+  pointer-events: auto;
+  position: absolute;
+  top: 0;
+  transition: all 0.2s ease;
+  width: 69px;
+}
+
+.startpage .workouts-1:hover {
+  transform: scale(1.1);
+}
+
+.startpage .overlap-group2 {
+  height: 451px;
+  margin-right: 10.09px;
+  margin-top: 110px;
+  position: relative;
+  width: 1243px;
+}
+
+.startpage .work-out-tracker-title {
+  display: block;
+  height: 365px;
+  left: 0;
+  position: absolute;
+  top: 86px;
+  width: 1057px;
+  opacity: 0;
+}
+
+.startpage .work-out-tracker-title.animate-enter {
+  animation: animate-enter-frames 0.15s ease-in-out 0.00s 1 normal forwards;
+  display: block;
+  opacity: 0;
+}
+
+@keyframes animate-enter-frames {
+  from{opacity: 0;
+}
+to{opacity: 1;
+}
+}
+
+.startpage .running-stick-f-e-svgrepo-com-1 {
+  height: 395px;
+  left: 859px;
+  mix-blend-mode: lighten;
+  position: absolute;
+  top: 0;
+  width: 384px;
+}
+
+.startpage .flex-row-1 {
+  align-items: flex-end;
+  display: flex;
+  height: 103px;
+  margin-right: 10px;
+  min-width: 1247px;
+}
+
+.startpage .join-now-button {
+  cursor: pointer;
+  height: 78px;
+  pointer-events: auto;
+  transition: all 0.2s ease;
+  width: 156px;
+}
+
+.startpage .join-now-button:hover {
+  transform: scale(1.1);
+}
+
+.startpage .login-button {
+  cursor: pointer;
+  height: 78px;
+  margin-left: 26px;
+  pointer-events: auto;
+  transition: all 0.2s ease;
+  width: 123px;
+}
+
+.startpage .login-button:hover {
+  transform: scale(1.1);
+}
+
+.startpage .purple-box {
+  align-self: flex-start;
+  height: 98px;
+  margin-left: 749px;
+  width: 193px;
+}
+
+.startpage .flex-row-2 {
+  align-items: flex-start;
+  display: flex;
+  height: 154px;
+  margin-right: 10px;
+  margin-top: 21px;
+  min-width: 1264px;
+}
+
+.startpage .featured-in {
+  align-self: flex-end;
+  height: 85px;
+  pointer-events: auto;
+  transition: all 0.2s ease;
+  width: 275px;
+}
+
+.startpage .featured-in:hover {
+  transform: scale(1.1);
+}
+
+.startpage .green-box {
+  align-self: center;
+  height: 111px;
+  margin-left: 334px;
+  margin-top: 16.72px;
+  width: 179px;
+}
+
+.startpage .blue-box {
+  height: 141px;
+  margin-left: 28px;
+  width: 448px;
+}
