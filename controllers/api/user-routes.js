@@ -1,19 +1,38 @@
+const Users = require('../../models/Users');
 const router = require('express').Router();
+const { users, posts} = require('sequelize')
+
+
 
 router.get('/', (req, res) => {
     res.render('login')
 });
 
-router.post('/', (req, res) => {
+router.post('/', async (req, res) => {
     const {username, email, password } = req.body;
 
-    let user = await UserModel.findOne({email});
+    let user = await Users.findOne({email});
 
     if(user){
         return res.redirect('/');
     }
 
-    router.post('/login', (req, res) => {
+    const hashedPsw = await bcrypt.hash(password, 12);
+
+    user = new Users({
+        username, 
+        email,
+        password: hashedPsw
+    });
+
+    await users.save();
+
+    res.redirect('/');
+
+});
+   
+
+router.post('/login', (req, res) => {
         // expects {email: password:}
         User.findOne({
           where: {
