@@ -2,6 +2,7 @@
   --black: #171717;
   --text-1: #fafaf9;
   --text-2: #efede8a6;
+  --white: #ffffff;
  
   --font-size-l: 14px;
   --font-size-m: 12px;
@@ -9,12 +10,14 @@
   --font-size-xxl: 18px;
   --font-size-xxxl: 40px;
  
-  --font-family-inter: "Inter", Helvetica;
-  --font-family-poppins: "Poppins", Helvetica;
+  --font-family-inter-bold: "Inter-Bold", Helvetica;
+  --font-family-inter-regular: "Inter-Regular", Helvetica;
+  --font-family-inter-semibold: "Inter-SemiBold", Helvetica;
+  --font-family-poppins-semibold: "Poppins-SemiBold", Helvetica;
 }
-.inter-normal-alabaster-12px {
+.inter-regular-normal-alabaster-12px {
   color: var(--text-1);
-  font-family: var(--font-family-inter);
+  font-family: var(--font-family-inter-regular);
   font-size: var(--font-size-m);
   font-style: normal;
   font-weight: 400;
