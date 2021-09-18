@@ -20,7 +20,7 @@ Post.init(
           },
 
 
-        body: {
+        post_text: {
             type: DataTypes.STRING,
             allowNull: false,
         },
