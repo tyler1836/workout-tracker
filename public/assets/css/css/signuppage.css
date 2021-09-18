@@ -1,0 +1,208 @@
+/* screen - signuppage */
+
+.signuppage {
+  align-items: flex-start;
+  background-color: var(--black);
+  display: flex;
+  flex-direction: column;
+  height: 1023px;
+  padding: 53px 34px;
+  width: 1649px;
+}
+
+.signuppage .flex-row {
+  align-items: flex-end;
+  align-self: center;
+  display: flex;
+  height: 25px;
+  margin-right: 74.0px;
+  min-width: 1167px;
+}
+
+.signuppage .workout-tracker {
+  cursor: pointer;
+  height: 19px;
+  pointer-events: auto;
+  transition: all 0.2s ease;
+  width: 164px;
+}
+
+.signuppage .workout-tracker:hover {
+  transform: scale(1.1);
+}
+
+.signuppage .workouts {
+  cursor: pointer;
+  height: 15px;
+  margin-bottom: 2px;
+  margin-left: 581px;
+  pointer-events: auto;
+  transition: all 0.2s ease;
+  width: 69px;
+}
+
+.signuppage .workouts:hover {
+  transform: scale(1.1);
+}
+
+.signuppage .overlap-group1 {
+  align-self: flex-start;
+  height: 23px;
+  margin-left: 22px;
+  position: relative;
+  width: 187px;
+}
+
+.signuppage .programs {
+  height: 15px;
+  left: 55px;
+  position: absolute;
+  top: 0;
+  width: 68px;
+}
+
+.signuppage .programs-1 {
+  height: 15px;
+  left: 0;
+  position: absolute;
+  top: 8px;
+  width: 68px;
+}
+
+.signuppage .healthy-living {
+  height: 15px;
+  left: 90px;
+  position: absolute;
+  top: 8px;
+  width: 97px;
+}
+
+.signuppage .contact {
+  cursor: pointer;
+  height: 15px;
+  margin-bottom: 2px;
+  margin-left: 22px;
+  pointer-events: auto;
+  transition: all 0.2s ease;
+  width: 58px;
+}
+
+.signuppage .contact:hover {
+  transform: scale(1.1);
+}
+
+.signuppage .about {
+  cursor: pointer;
+  height: 15px;
+  margin-bottom: 2px;
+  margin-left: 22px;
+  pointer-events: auto;
+  transition: all 0.2s ease;
+  width: 42px;
+}
+
+.signuppage .about:hover {
+  transform: scale(1.1);
+}
+
+.signuppage .flex-col {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-top: 151px;
+  min-height: 751px;
+  width: 1422px;
+}
+
+.signuppage .overlap-group {
+  align-self: flex-end;
+  height: 416px;
+  position: relative;
+  width: 1238px;
+}
+
+.signuppage .work-out-tracker-title {
+  height: 359px;
+  left: 0;
+  position: absolute;
+  top: 57px;
+  width: 1057px;
+}
+
+.signuppage .running-stick-f-e-svgrepo-com-1 {
+  height: 395px;
+  left: 854px;
+  mix-blend-mode: lighten;
+  position: absolute;
+  top: 0;
+  width: 384px;
+}
+
+.signuppage .flex-row-1 {
+  align-items: center;
+  display: flex;
+  height: 314px;
+  margin-top: 21px;
+  min-width: 1340px;
+}
+
+.signuppage .flex-col-1 {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  min-height: 314px;
+  width: 1129px;
+}
+
+.signuppage .flex-row-2 {
+  align-items: flex-start;
+  display: flex;
+  min-width: 930px;
+}
+
+.signuppage .email-purple-box {
+  height: 98px;
+  width: 303px;
+}
+
+.signuppage .x-entry {
+  background-color: var(--white);
+  height: 89px;
+  margin-left: 21px;
+  width: 606px;
+}
+
+.signuppage .flex-row-3 {
+  align-items: flex-start;
+  display: flex;
+  height: 95px;
+  margin-top: 12px;
+  min-width: 930px;
+}
+
+.signuppage .password-green-box {
+  align-self: flex-end;
+  height: 89px;
+  width: 303px;
+}
+
+.signuppage .featured-in {
+  align-self: flex-start;
+  height: 75px;
+  margin-top: 34px;
+  width: 600px;
+}
+
+.signuppage .join-now-button {
+  cursor: pointer;
+  height: 78px;
+  margin-bottom: 110.0px;
+  margin-left: 54px;
+  pointer-events: auto;
+  transition: all 0.2s ease;
+  width: 156px;
+}
+
+.signuppage .join-now-button:hover {
+  transform: scale(1.1);
+}

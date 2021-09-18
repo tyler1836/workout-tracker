@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1440, maximum-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <link rel="stylesheet" type="text/css" href="css/frame-1.css" />
+    <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
+    <link rel="stylesheet" type="text/css" href="css/globals.css" />
+    <meta name="author" content="AnimaApp.com - Design to code, Automated." />
+  </head>
+  <body style="margin: 0; background: #171717">
+    <input type="hidden" id="anPageName" name="page" value="frame-1" />
+    <div class="container-center-horizontal">
+      <form class="frame-1 screen" name="form15" action="form15" method="post">
+        <div class="nav">
+          <div class="workout">WORKOUT</div>
+          <div class="workouts inter-regular-normal-alabaster-12px">WORKOUTS</div>
+          <div class="programs inter-regular-normal-alabaster-12px">PROGRAMS</div>
+          <div class="healthy-living inter-regular-normal-alabaster-12px">HEALTHY LIVING</div>
+          <div class="place inter-regular-normal-alabaster-12px">CONTACT</div>
+          <div class="about inter-regular-normal-alabaster-12px">ABOUT</div>
+        </div>
+        <div class="overlap-group1">
+          <a href="javascript:SubmitForm('form15')">
+            <div class="button"><div class="join-now-i2276882">LOGIN</div></div></a
+          >
+          <div class="overlap-group">
+            <div class="text-8">300+</div>
+            <div class="free-workout-videos">Free Workout Videos</div>
+          </div>
+        </div>
+      </form>
+    </div>
+    <script>
+      /* Copyright (c) 2016 Tobias Buschor https://goo.gl/gl0mbf | MIT License https://goo.gl/HgajeK */
+
+      if (!HTMLFormElement.prototype.reportValidity) {
+        HTMLFormElement.prototype.reportValidity = function () {
+          if (this.checkValidity()) return true;
+          var btn = document.createElement("button");
+          this.appendChild(btn);
+          btn.click();
+          this.removeChild(btn);
+          return false;
+        };
+      }
+
+      function SubmitForm(form_name) {
+        var form = document.getElementsByName(form_name)[0];
+        if (form.reportValidity()) {
+          form.submit();
+          if (window.submitted) window.submitted();
+        }
+      }
+    </script>
+  </body>
+</html>

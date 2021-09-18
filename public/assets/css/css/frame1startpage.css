@@ -1,0 +1,212 @@
+/* screen - frame1startpage */
+
+.frame1startpage {
+  align-items: flex-start;
+  background-color: var(--black);
+  display: flex;
+  flex-direction: column;
+  height: 1023px;
+  padding: 58px 92px;
+  width: 1440px;
+}
+
+.frame1startpage .flex-row {
+  align-items: center;
+  display: flex;
+  min-width: 1214px;
+}
+
+.frame1startpage .workout-tracker {
+  cursor: pointer;
+  display: flex;
+  height: 19px;
+  pointer-events: auto;
+  transition: all 0.2s ease;
+  width: 164px;
+}
+
+.frame1startpage .workout-tracker:hover {
+  transform: scale(1.1);
+}
+
+.frame1startpage .text-3 {
+  color: var(--text-1);
+  cursor: pointer;
+  flex: 1;
+  font-family: var(--font-family-inter-bold);
+  font-size: var(--font-size-xl);
+  font-weight: 700;
+  letter-spacing: 0;
+  pointer-events: auto;
+  transition: all 0.2s ease;
+  width: 166px;
+}
+
+.frame1startpage .text-3:hover {
+  transform: scale(1.1);
+}
+
+.frame1startpage .workouts {
+  cursor: pointer;
+  display: flex;
+  height: 15px;
+  margin-left: 581px;
+  pointer-events: auto;
+  transition: all 0.2s ease;
+  width: 69px;
+}
+
+.frame1startpage .workouts:hover {
+  transform: scale(1.1);
+}
+
+.frame1startpage .text-4 {
+  cursor: pointer;
+  flex: 1;
+  letter-spacing: 0;
+  width: 71px;
+}
+
+.frame1startpage .programs {
+  display: flex;
+  height: 15px;
+  margin-left: 29px;
+  width: 68px;
+}
+
+.frame1startpage .text-5 {
+  cursor: pointer;
+  flex: 1;
+  letter-spacing: 0;
+  pointer-events: auto;
+  transition: all 0.2s ease;
+  width: 70px;
+}
+
+.frame1startpage .text-5:hover {
+  transform: scale(1.1);
+}
+
+.frame1startpage .healthy-living {
+  display: flex;
+  height: 15px;
+  margin-left: 58px;
+  width: 97px;
+}
+
+.frame1startpage .text-6 {
+  cursor: pointer;
+  flex: 1;
+  letter-spacing: 0;
+  pointer-events: auto;
+  transition: all 0.2s ease;
+  width: 99px;
+}
+
+.frame1startpage .text-6:hover {
+  transform: scale(1.1);
+}
+
+.frame1startpage .contact {
+  cursor: pointer;
+  display: flex;
+  height: 15px;
+  margin-left: 24px;
+  pointer-events: auto;
+  transition: all 0.2s ease;
+  width: 58px;
+}
+
+.frame1startpage .contact:hover {
+  transform: scale(1.1);
+}
+
+.frame1startpage .place {
+  flex: 1;
+  letter-spacing: 0;
+  width: 60px;
+}
+
+.frame1startpage .about {
+  cursor: pointer;
+  display: flex;
+  height: 15px;
+  margin-left: 24px;
+  pointer-events: auto;
+  transition: all 0.2s ease;
+  width: 42px;
+}
+
+.frame1startpage .about:hover {
+  transform: scale(1.1);
+}
+
+.frame1startpage .text-7 {
+  flex: 1;
+  letter-spacing: 0;
+  width: 44px;
+}
+
+.frame1startpage .overlap-group {
+  align-items: flex-end;
+  background-image: url(../img/section-1@1x.png);
+  background-size: 100% 100%;
+  display: flex;
+  height: 772px;
+  justify-content: flex-end;
+  margin-left: 4.6px;
+  margin-top: 79px;
+  min-width: 1237px;
+  padding: 174px 51.6px;
+}
+
+.frame1startpage .login-button {
+  cursor: pointer;
+  height: 78px;
+  pointer-events: auto;
+  transition: all 0.2s ease;
+  width: 117px;
+}
+
+.frame1startpage .login-button:hover {
+  transform: scale(1.1);
+}
+
+.frame1startpage .purple-box {
+  align-items: flex-end;
+  background-color: #c82bef;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 624px;
+  min-height: 98px;
+  padding: 12px 16px;
+  width: 193px;
+}
+
+.frame1startpage .text-1 {
+  align-self: center;
+  color: var(--text-1);
+  font-family: var(--font-family-inter-semibold);
+  font-size: var(--font-size-xxxl);
+  font-weight: 600;
+  letter-spacing: 1.00px;
+  line-height: 40px;
+  margin-right: 13.0px;
+  margin-top: 8px;
+  min-height: 40px;
+  min-width: 112px;
+  white-space: nowrap;
+}
+
+.frame1startpage .text-2 {
+  color: var(--text-2);
+  font-family: var(--font-family-inter-regular);
+  font-size: var(--font-size-l);
+  letter-spacing: 1.00px;
+  line-height: 20px;
+  margin-top: 6px;
+  min-height: 20px;
+  min-width: 158px;
+  white-space: nowrap;
+}
