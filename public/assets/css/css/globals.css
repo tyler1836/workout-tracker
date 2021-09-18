@@ -1,5 +1,7 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
 
+@import url("https://fonts.googleapis.com/css?family=Poppins:600");
+
 .screen a {
   display: contents;
   text-decoration: none;
@@ -16,6 +18,16 @@
 .container-center-horizontal > * {
   flex-shrink: 0;
   pointer-events: auto;
+}
+
+.valign-text-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+input:focus {
+  outline: none;
 }
 
 .smart-layers-pointers,

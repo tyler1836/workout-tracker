@@ -9,11 +9,13 @@
   --font-size-xl: 16px;
   --font-size-xxl: 18px;
   --font-size-xxxl: 40px;
+  --font-size-xxxxl: 48px;
+  --font-size-xxxxxl: 72px;
  
   --font-family-inter-bold: "Inter-Bold", Helvetica;
   --font-family-inter-regular: "Inter-Regular", Helvetica;
   --font-family-inter-semibold: "Inter-SemiBold", Helvetica;
-  --font-family-poppins-semibold: "Poppins-SemiBold", Helvetica;
+  --font-family-poppins: "Poppins", Helvetica;
 }
 .inter-regular-normal-alabaster-12px {
   color: var(--text-1);

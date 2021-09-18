@@ -14,47 +14,47 @@
   <body style="margin: 0; background: #171717">
     <input type="hidden" id="anPageName" name="page" value="frame1startpage" />
     <div class="container-center-horizontal">
-      <form class="frame1startpage screen" name="form14" action="form14" method="post">
+      <form class="frame1startpage screen" name="form82" action="form82" method="post">
         <div class="flex-row">
-          <a href="javascript:SubmitForm('form14')">
+          <a href="javascript:SubmitForm('form82')">
             <div class="workout-tracker smart-layers-pointers">
-              <a href="javascript:SubmitForm('form14')" onclick="window.event.stopPropagation()"
+              <a href="javascript:SubmitForm('form82')" onclick="window.event.stopPropagation()"
                 ><div class="text-3 smart-layers-pointers">WORKOUT TRACKER</div></a
               >
             </div></a
-          ><a href="javascript:SubmitForm('form14')">
+          ><a href="javascript:SubmitForm('form82')">
             <div class="workouts smart-layers-pointers">
-              <a href="javascript:SubmitForm('form14')" onclick="window.event.stopPropagation()"
+              <a href="javascript:SubmitForm('form82')" onclick="window.event.stopPropagation()"
                 ><div class="text-4 inter-regular-normal-alabaster-12px">WORKOUTS</div></a
               >
             </div></a
           >
           <div class="programs">
-            <a href="javascript:SubmitForm('form14')"
+            <a href="javascript:SubmitForm('form82')"
               ><div class="text-5 smart-layers-pointers inter-regular-normal-alabaster-12px">PROGRAMS</div></a
             >
           </div>
           <div class="healthy-living">
-            <a href="javascript:SubmitForm('form14')"
+            <a href="javascript:SubmitForm('form82')"
               ><div class="text-6 smart-layers-pointers inter-regular-normal-alabaster-12px">HEALTHY LIVING</div></a
             >
           </div>
-          <a href="javascript:SubmitForm('form14')">
+          <a href="javascript:SubmitForm('form82')">
             <div class="contact smart-layers-pointers">
               <div class="place inter-regular-normal-alabaster-12px">CONTACT</div>
             </div></a
-          ><a href="javascript:SubmitForm('form14')">
+          ><a href="javascript:SubmitForm('form82')">
             <div class="about smart-layers-pointers">
               <div class="text-7 inter-regular-normal-alabaster-12px">ABOUT</div>
             </div></a
           >
         </div>
         <div class="overlap-group">
-          <a href="javascript:SubmitForm('form14')"
+          <a href="javascript:SubmitForm('form82')"
             ><img class="login-button smart-layers-pointers" src="img/login-button@1x.png" />
           </a>
           <div class="purple-box">
-            <h1 class="text-1">300+</h1>
+            <div class="text-1">300+</div>
             <div class="text-2">Free Workout Videos</div>
           </div>
         </div>
@@ -63,24 +63,24 @@
     <script>
       /* Copyright (c) 2016 Tobias Buschor https://goo.gl/gl0mbf | MIT License https://goo.gl/HgajeK */
 
-      if (!HTMLFormElement.prototype.reportValidity) {
-        HTMLFormElement.prototype.reportValidity = function () {
-          if (this.checkValidity()) return true;
-          var btn = document.createElement("button");
-          this.appendChild(btn);
-          btn.click();
-          this.removeChild(btn);
-          return false;
-        };
-      }
+      // if (!HTMLFormElement.prototype.reportValidity) {
+      //   HTMLFormElement.prototype.reportValidity = function () {
+      //     if (this.checkValidity()) return true;
+      //     var btn = document.createElement("button");
+      //     this.appendChild(btn);
+      //     btn.click();
+      //     this.removeChild(btn);
+      //     return false;
+      //   };
+      // }
 
-      function SubmitForm(form_name) {
-        var form = document.getElementsByName(form_name)[0];
-        if (form.reportValidity()) {
-          form.submit();
-          if (window.submitted) window.submitted();
-        }
-      }
+      // function SubmitForm(form_name) {
+      //   var form = document.getElementsByName(form_name)[0];
+      //   if (form.reportValidity()) {
+      //     form.submit();
+      //     if (window.submitted) window.submitted();
+      //   }
+      // }
     </script>
   </body>
 </html>
