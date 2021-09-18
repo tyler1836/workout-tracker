@@ -1,6 +1,7 @@
-const Users = require('../../models/Users');
+const Users = require('../../models/User');
+// const Post = require('../../models/Post');
 const router = require('express').Router();
-const { users, posts} = require('sequelize')
+const { User, posts} = require('sequelize')
 
 
 
@@ -8,26 +9,29 @@ router.get('/', (req, res) => {
     res.render('login')
 });
 
-router.post('/', async (req, res) => {
+router.get('/signup', (req, res) => {
+    res.render('signup')
+});
+
+router.post('/signup', async (req, res) => {
+    
     const {username, email, password } = req.body;
 
-    let user = await Users.findOne({email});
+    let user = await User.findOne({email});
 
     if(user){
         return res.redirect('/');
     }
 
-    const hashedPsw = await bcrypt.hash(password, 12);
-
-    user = new Users({
+    user = new User({
         username, 
         email,
-        password: hashedPsw
+        password
     });
 
-    await users.save();
+    await user.save();
 
-    res.redirect('/');
+    res.redirect('/login');
 
 });
    
@@ -71,4 +75,22 @@ router.post('/login', (req, res) => {
     }
   });
 
+  router.delete('/:id', (req, res) => {
+    User.destroy({
+      where: {
+        id: req.params.id
+      }
+    })
+      .then(dbUserData => {
+        if (!dbUserData) {
+          res.status(404).json({ message: 'No user found with this id' });
+          return;
+        }
+        res.json(dbUserData);
+      })
+      .catch(err => {
+        console.log(err);
+        res.status(500).json(err);
+      });
+  });
 module.exports = router;
