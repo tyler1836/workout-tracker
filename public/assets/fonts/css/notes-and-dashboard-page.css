@@ -1,0 +1,293 @@
+/* screen - notes-and-dashboard-page */
+
+.notes-and-dashboard-page {
+  align-items: flex-start;
+  background-color: var(--black);
+  display: flex;
+  flex-direction: column;
+  height: 1028px;
+  overflow: hidden;
+  padding: 60px 0;
+  width: 1658px;
+}
+
+.notes-and-dashboard-page .overlap-group3 {
+  align-self: center;
+  height: 164px;
+  margin-left: 13.0px;
+  position: relative;
+  width: 1291px;
+}
+
+.notes-and-dashboard-page .work-out-tracker-title {
+  height: 151px;
+  left: 0;
+  position: absolute;
+  top: 12px;
+  width: 1273px;
+}
+
+.notes-and-dashboard-page .workout-tracker {
+  cursor: pointer;
+  height: 19px;
+  left: 0;
+  pointer-events: auto;
+  position: absolute;
+  top: 1px;
+  transition: all 0.2s ease;
+  width: 164px;
+}
+
+.notes-and-dashboard-page .workout-tracker:hover {
+  transform: scale(1.1);
+}
+
+.notes-and-dashboard-page .navbar {
+  align-items: flex-start;
+  display: flex;
+  height: 16px;
+  left: 893px;
+  min-width: 398px;
+  position: absolute;
+  top: 0;
+}
+
+.notes-and-dashboard-page .overlap-group1 {
+  height: 15px;
+  position: relative;
+  width: 131px;
+}
+
+.notes-and-dashboard-page .home-section-nav-bar {
+  cursor: pointer;
+  height: 15px;
+  left: 0;
+  pointer-events: auto;
+  position: absolute;
+  top: 0;
+  transition: all 0.2s ease;
+  width: 69px;
+}
+
+.notes-and-dashboard-page .home-section-nav-bar:hover {
+  transform: scale(1.1);
+}
+
+.notes-and-dashboard-page .notes-section-nav-bar {
+  cursor: pointer;
+  height: 15px;
+  left: 63px;
+  pointer-events: auto;
+  position: absolute;
+  top: 0;
+  transition: all 0.15s ease;
+  width: 68px;
+}
+
+.notes-and-dashboard-page .notes-section-nav-bar:hover {
+  transform: scale(1.1);
+}
+
+.notes-and-dashboard-page .about-section-nav-bar {
+  cursor: pointer;
+  height: 15px;
+  margin-left: 1px;
+  pointer-events: auto;
+  transition: all 0.15s ease;
+  width: 42px;
+}
+
+.notes-and-dashboard-page .about-section-nav-bar:hover {
+  transform: scale(1.1);
+}
+
+.notes-and-dashboard-page .contact-section-nav-bar {
+  align-self: flex-end;
+  cursor: pointer;
+  height: 15px;
+  margin-left: 28px;
+  pointer-events: auto;
+  transition: all 0.15s ease;
+  width: 58px;
+}
+
+.notes-and-dashboard-page .contact-section-nav-bar:hover {
+  transform: scale(1.1);
+}
+
+.notes-and-dashboard-page .overlap-group {
+  height: 15px;
+  margin-left: 14px;
+  position: relative;
+  width: 124px;
+}
+
+.notes-and-dashboard-page .login-section-nav-bar {
+  cursor: pointer;
+  height: 15px;
+  left: 0;
+  pointer-events: auto;
+  position: absolute;
+  top: 0;
+  transition: all 0.2s ease;
+  width: 97px;
+}
+
+.notes-and-dashboard-page .login-section-nav-bar:hover {
+  transform: scale(1.1);
+}
+
+.notes-and-dashboard-page .logout-section-nav-bar {
+  cursor: pointer;
+  height: 15px;
+  left: 55px;
+  pointer-events: auto;
+  position: absolute;
+  top: 0;
+  transition: all 0.2s ease;
+  width: 69px;
+}
+
+.notes-and-dashboard-page .logout-section-nav-bar:hover {
+  transform: scale(1.1);
+}
+
+.notes-and-dashboard-page .flex-row {
+  align-items: flex-start;
+  display: flex;
+  height: 680px;
+  margin-left: -51px;
+  margin-top: 78px;
+  min-width: 1503px;
+}
+
+.notes-and-dashboard-page .flex-col {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 680px;
+  width: 600px;
+}
+
+.notes-and-dashboard-page .workouts {
+  align-items: flex-end;
+  display: flex;
+  height: 62px;
+  margin-right: 23.0px;
+  min-width: 539px;
+}
+
+.notes-and-dashboard-page .overlap-group2 {
+  height: 503px;
+  margin-bottom: -441px;
+  position: relative;
+  width: 827px;
+}
+
+.notes-and-dashboard-page .workouts-1 {
+  left: 0;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 541px;
+}
+
+.notes-and-dashboard-page .workouts-left-side {
+  background-color: var(--white);
+  height: 460px;
+  left: 200px;
+  position: absolute;
+  top: 43px;
+  width: 627px;
+}
+
+.notes-and-dashboard-page .featured-in {
+  height: 75px;
+  margin-top: 543px;
+  width: 600px;
+}
+
+.notes-and-dashboard-page .flex-col-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 308px;
+  min-height: 595px;
+  width: 595px;
+}
+
+.notes-and-dashboard-page .title {
+  align-items: flex-end;
+  display: flex;
+  height: 37px;
+  min-width: 211px;
+  padding: 1px 75.5px;
+}
+
+.notes-and-dashboard-page .title-1 {
+  height: 27px;
+  width: 60px;
+}
+
+.notes-and-dashboard-page .title-2 {
+  background-color: var(--white);
+  height: 45px;
+  margin-left: 4px;
+  width: 590px;
+}
+
+.notes-and-dashboard-page .post {
+  display: flex;
+  height: 37px;
+  margin-left: 5px;
+  margin-top: 14px;
+  width: 211px;
+}
+
+.notes-and-dashboard-page .place {
+  flex: 1;
+  letter-spacing: 0;
+  width: 213px;
+}
+
+.notes-and-dashboard-page .post-1 {
+  align-self: flex-end;
+  background-color: var(--white);
+  height: 370px;
+  margin-right: 1px;
+  width: 589px;
+}
+
+.notes-and-dashboard-page .flex-row-1 {
+  align-items: flex-start;
+  align-self: flex-end;
+  display: flex;
+  margin-top: 14px;
+  min-width: 383px;
+}
+
+.notes-and-dashboard-page .login-button {
+  cursor: pointer;
+  height: 78px;
+  pointer-events: auto;
+  transition: all 0.2s ease;
+  width: 123px;
+}
+
+.notes-and-dashboard-page .login-button:hover {
+  transform: scale(1.1);
+}
+
+.notes-and-dashboard-page .x-button {
+  cursor: pointer;
+  height: 78px;
+  margin-left: 7px;
+  pointer-events: auto;
+  transition: all 0.2s ease;
+  width: 123px;
+}
+
+.notes-and-dashboard-page .x-button:hover {
+  transform: scale(1.1);
+}
