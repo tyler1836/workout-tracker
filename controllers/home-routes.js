@@ -3,7 +3,7 @@ const router = require('express').Router();
 
 
 router.get('/', (req, res) => {
-    res.render('htmllandingpage')
+    res.render('test')
 });
 
 router.get('/login', (req, res) => {
@@ -11,14 +11,14 @@ router.get('/login', (req, res) => {
 });
 
 router.get('/error', (req, res) => {
-    res.render('error')
+    res.render('errorpage')
 });
 
 router.get('/signup', (req, res) => {
-    res.render('signup')
+    res.render('sign')
 });
 
 router.get('/logout', (req, res) =>{
-    res.render('logout')
+    res.render('logoutpage')
 })
 module.exports = router;
