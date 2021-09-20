@@ -1,0 +1,42 @@
+:root { 
+  --black: #000000;
+  --button: #e6533c;
+  --text-1: #fafaf9;
+  --text-2: #efede8a6;
+  --white: #ffffff;
+ 
+  --font-size-l: 14px;
+  --font-size-m: 12px;
+  --font-size-xl: 16px;
+  --font-size-xxl: 24px;
+  --font-size-xxxl: 40px;
+  --font-size-xxxxl: 48px;
+  --font-size-xxxxxl: 72px;
+ 
+  --font-family-inter: "Inter", Helvetica;
+  --font-family-inter-regular: "Inter-Regular", Helvetica;
+  --font-family-poppins: "Poppins", Helvetica;
+}
+.inter-regular-normal-alabaster-12px {
+  color: var(--text-1);
+  font-family: var(--font-family-inter-regular);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.inter-semi-bold-alabaster-40px {
+  color: var(--text-1);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xxxl);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.inter-bold-alabaster-24px {
+  color: var(--text-1);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 700;
+}

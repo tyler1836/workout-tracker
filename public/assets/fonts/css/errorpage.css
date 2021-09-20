@@ -1,0 +1,201 @@
+/* screen - errorpage */
+
+.errorpage {
+  align-items: center;
+  background-color: var(--black);
+  display: flex;
+  flex-direction: column;
+  height: 1028px;
+  overflow: hidden;
+  padding: 60px 0;
+  width: 1649px;
+}
+
+.errorpage .flex-row {
+  align-items: flex-start;
+  display: flex;
+  margin-left: 14.0px;
+  min-width: 1277px;
+}
+
+.errorpage .workout-tracker {
+  cursor: pointer;
+  height: 19px;
+  pointer-events: auto;
+  transition: all 0.2s ease;
+  width: 164px;
+}
+
+.errorpage .workout-tracker:hover {
+  transform: scale(1.1);
+}
+
+.errorpage .navbar {
+  align-items: flex-start;
+  display: flex;
+  height: 16px;
+  margin-left: 718px;
+  min-width: 395px;
+}
+
+.errorpage .overlap-group {
+  height: 15px;
+  position: relative;
+  width: 130px;
+}
+
+.errorpage .home-section-nav-bar {
+  cursor: pointer;
+  height: 15px;
+  left: 0;
+  pointer-events: auto;
+  position: absolute;
+  top: 0;
+  transition: all 0.2s ease;
+  width: 69px;
+}
+
+.errorpage .home-section-nav-bar:hover {
+  transform: scale(1.1);
+}
+
+.errorpage .notes-section-nav-bar {
+  cursor: pointer;
+  height: 15px;
+  left: 62px;
+  pointer-events: auto;
+  position: absolute;
+  top: 0;
+  transition: all 0.15s ease;
+  width: 68px;
+}
+
+.errorpage .notes-section-nav-bar:hover {
+  transform: scale(1.1);
+}
+
+.errorpage .about-section-nav-bar {
+  cursor: pointer;
+  height: 15px;
+  pointer-events: auto;
+  transition: all 0.15s ease;
+  width: 42px;
+}
+
+.errorpage .about-section-nav-bar:hover {
+  transform: scale(1.1);
+}
+
+.errorpage .contact-section-nav-bar {
+  align-self: flex-end;
+  cursor: pointer;
+  height: 15px;
+  margin-left: 28px;
+  pointer-events: auto;
+  transition: all 0.15s ease;
+  width: 58px;
+}
+
+.errorpage .contact-section-nav-bar:hover {
+  transform: scale(1.1);
+}
+
+.errorpage .overlap-group1 {
+  height: 15px;
+  margin-left: 14px;
+  position: relative;
+  width: 123px;
+}
+
+.errorpage .login-section-nav-bar {
+  cursor: pointer;
+  height: 15px;
+  left: 0;
+  pointer-events: auto;
+  position: absolute;
+  top: 0;
+  transition: all 0.2s ease;
+  width: 97px;
+}
+
+.errorpage .login-section-nav-bar:hover {
+  transform: scale(1.1);
+}
+
+.errorpage .logout-section-nav-bar {
+  cursor: pointer;
+  height: 15px;
+  left: 54px;
+  pointer-events: auto;
+  position: absolute;
+  top: 0;
+  transition: all 0.2s ease;
+  width: 69px;
+}
+
+.errorpage .logout-section-nav-bar:hover {
+  transform: scale(1.1);
+}
+
+.errorpage .overlap-group2 {
+  height: 606px;
+  margin-left: 54.0px;
+  margin-top: 114px;
+  position: relative;
+  width: 1059px;
+}
+
+.errorpage .error-try-again-title {
+  height: 560px;
+  left: 0;
+  position: absolute;
+  top: 28px;
+  width: 1059px;
+}
+
+.errorpage .running-stick-f-e-svgrepo-com-1 {
+  height: 395px;
+  left: 520px;
+  mix-blend-mode: lighten;
+  position: absolute;
+  top: 0;
+  width: 384px;
+}
+
+.errorpage .join-now-button {
+  cursor: pointer;
+  height: 78px;
+  left: 561px;
+  pointer-events: auto;
+  position: absolute;
+  top: 528px;
+  transition: all 0.2s ease;
+  width: 246px;
+}
+
+.errorpage .join-now-button:hover {
+  transform: scale(1.1);
+}
+
+.errorpage .login-button {
+  cursor: pointer;
+  height: 78px;
+  left: 819px;
+  pointer-events: auto;
+  position: absolute;
+  top: 528px;
+  transition: all 0.2s ease;
+  width: 171px;
+}
+
+.errorpage .login-button:hover {
+  transform: scale(1.1);
+}
+
+.errorpage .footer {
+  align-self: flex-start;
+  height: 75px;
+  margin-left: -52px;
+  margin-top: 107px;
+  width: 600px;
+}

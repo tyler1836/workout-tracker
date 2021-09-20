@@ -1,0 +1,307 @@
+/* screen - notespage */
+
+.notespage {
+  align-items: flex-start;
+  background-color: var(--black);
+  display: flex;
+  flex-direction: column;
+  height: 1028px;
+  overflow: hidden;
+  padding: 60px 0;
+  width: 1658px;
+}
+
+.notespage .overlap-group3 {
+  align-self: center;
+  height: 164px;
+  margin-left: 13.0px;
+  position: relative;
+  width: 1291px;
+}
+
+.notespage .work-out-tracker-title {
+  height: 151px;
+  left: 0;
+  position: absolute;
+  top: 12px;
+  width: 1273px;
+}
+
+.notespage .workout-tracker {
+  cursor: pointer;
+  height: 19px;
+  left: 0;
+  pointer-events: auto;
+  position: absolute;
+  top: 1px;
+  transition: all 0.2s ease;
+  width: 164px;
+}
+
+.notespage .workout-tracker:hover {
+  transform: scale(1.1);
+}
+
+.notespage .navbar {
+  align-items: flex-start;
+  display: flex;
+  height: 16px;
+  left: 893px;
+  min-width: 398px;
+  position: absolute;
+  top: 0;
+}
+
+.notespage .overlap-group {
+  height: 15px;
+  position: relative;
+  width: 131px;
+}
+
+.notespage .home-section-nav-bar {
+  cursor: pointer;
+  height: 15px;
+  left: 0;
+  pointer-events: auto;
+  position: absolute;
+  top: 0;
+  transition: all 0.2s ease;
+  width: 69px;
+}
+
+.notespage .home-section-nav-bar:hover {
+  transform: scale(1.1);
+}
+
+.notespage .notes-section-nav-bar {
+  cursor: pointer;
+  height: 15px;
+  left: 63px;
+  pointer-events: auto;
+  position: absolute;
+  top: 0;
+  transition: all 0.15s ease;
+  width: 68px;
+}
+
+.notespage .notes-section-nav-bar:hover {
+  transform: scale(1.1);
+}
+
+.notespage .about-section-nav-bar {
+  cursor: pointer;
+  height: 15px;
+  margin-left: 1px;
+  pointer-events: auto;
+  transition: all 0.15s ease;
+  width: 42px;
+}
+
+.notespage .about-section-nav-bar:hover {
+  transform: scale(1.1);
+}
+
+.notespage .contact-section-nav-bar {
+  align-self: flex-end;
+  cursor: pointer;
+  height: 15px;
+  margin-left: 28px;
+  pointer-events: auto;
+  transition: all 0.15s ease;
+  width: 58px;
+}
+
+.notespage .contact-section-nav-bar:hover {
+  transform: scale(1.1);
+}
+
+.notespage .overlap-group1 {
+  height: 15px;
+  margin-left: 14px;
+  position: relative;
+  width: 124px;
+}
+
+.notespage .login-section-nav-bar {
+  cursor: pointer;
+  height: 15px;
+  left: 0;
+  pointer-events: auto;
+  position: absolute;
+  top: 0;
+  transition: all 0.2s ease;
+  width: 97px;
+}
+
+.notespage .login-section-nav-bar:hover {
+  transform: scale(1.1);
+}
+
+.notespage .logout-section-nav-bar {
+  cursor: pointer;
+  height: 15px;
+  left: 55px;
+  pointer-events: auto;
+  position: absolute;
+  top: 0;
+  transition: all 0.2s ease;
+  width: 69px;
+}
+
+.notespage .logout-section-nav-bar:hover {
+  transform: scale(1.1);
+}
+
+.notespage .flex-row {
+  align-items: flex-start;
+  display: flex;
+  height: 680px;
+  margin-left: -51px;
+  margin-top: 78px;
+  min-width: 1503px;
+}
+
+.notespage .flex-col {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 680px;
+  width: 846px;
+}
+
+.notespage .overlap-group2 {
+  align-self: flex-end;
+  height: 503px;
+  position: relative;
+  width: 827px;
+}
+
+.notespage .workouts {
+  left: 0;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 541px;
+}
+
+.notespage .workouts-left-side {
+  background-color: var(--white);
+  height: 460px;
+  left: 200px;
+  position: absolute;
+  top: 43px;
+  width: 627px;
+}
+
+.notespage .featured-in {
+  height: 75px;
+  margin-top: 102px;
+  width: 600px;
+}
+
+.notespage .flex-col-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 66px;
+  margin-top: 9px;
+  min-height: 586px;
+  width: 591px;
+}
+
+.notespage .title {
+  height: 27px;
+  margin-left: 71.5px;
+  width: 60px;
+}
+
+.notespage .title-1 {
+  background-color: var(--white);
+  display: flex;
+  height: 45px;
+  margin-top: 1px;
+  width: 590px;
+}
+
+.notespage .text {
+  background-color: transparent;
+  border: 0;
+  color: var(--black);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xxl);
+  font-weight: 700;
+  height: 23px;
+  letter-spacing: 0;
+  margin-left: 15px;
+  margin-top: 10px;
+  padding: 0;
+  width: 566px;
+}
+
+.notespage .text::placeholder {
+  color: #00000099;
+}
+
+.notespage .place {
+  letter-spacing: 0;
+  margin-left: 1px;
+  margin-top: 14px;
+  min-height: 37px;
+  width: 213px;
+}
+
+.notespage .post {
+  background-color: var(--white);
+  height: 370px;
+  margin-left: 1px;
+  width: 589px;
+}
+
+.notespage .flex-row-1 {
+  align-items: flex-end;
+  align-self: flex-end;
+  display: flex;
+  height: 79px;
+  margin-top: 13px;
+  min-width: 383px;
+}
+
+.notespage .login-button {
+  cursor: pointer;
+  height: 78px;
+  pointer-events: auto;
+  transition: all 0.2s ease;
+  width: 123px;
+}
+
+.notespage .login-button:hover {
+  transform: scale(1.1);
+}
+
+.notespage .login-button-1 {
+  align-self: flex-start;
+  cursor: pointer;
+  height: 78px;
+  margin-left: 11px;
+  pointer-events: auto;
+  transition: all 0.2s ease;
+  width: 123px;
+}
+
+.notespage .login-button-1:hover {
+  transform: scale(1.1);
+}
+
+.notespage .delete-button {
+  cursor: pointer;
+  height: 78px;
+  margin-left: 3px;
+  pointer-events: auto;
+  transition: all 0.2s ease;
+  width: 123px;
+}
+
+.notespage .delete-button:hover {
+  transform: scale(1.1);
+}
