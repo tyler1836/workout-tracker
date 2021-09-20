@@ -7,7 +7,7 @@ router.get('/', (req, res) => {
 });
 
 router.get('/login', (req, res) => {
-    res.render('login')
+    res.render('loginpage')
 });
 
 router.get('/error', (req, res) => {
@@ -15,10 +15,23 @@ router.get('/error', (req, res) => {
 });
 
 router.get('/signup', (req, res) => {
-    res.render('sign')
+    res.render('signuppage')
 });
 
 router.get('/logout', (req, res) =>{
-    res.render('logoutpage')
-})
+    res.render('readytologoutquestion')
+});
+
+
+router.post('/logout', (req, res) =>{
+    if(req.session.loggedIn){
+      req.session.destroy(()=>{
+        res.status(204).end();
+      });
+    }
+    else{
+      res.status(404).end();
+    }
+  });
+
 module.exports = router;
