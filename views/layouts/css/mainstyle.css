@@ -55,6 +55,16 @@ input:focus {
   width: 1649px;
 }
 
+.loginpage {
+  align-items: center;
+  background-color: var(--black);
+  display: flex;
+  flex-direction: column;
+  height: 1023px;
+  padding: 59px 34px;
+  width: 1649px;
+}
+
 .notespage {
   align-items: flex-start;
   background-color: var(--black);
@@ -63,6 +73,16 @@ input:focus {
   height: 988px;
   overflow: hidden;
   padding: 40px 0;
+  width: 1649px;
+}
+
+.signuppage {
+  align-items: center;
+  background-color: var(--black);
+  display: flex;
+  flex-direction: column;
+  height: 1023px;
+  padding: 55px 34px;
   width: 1649px;
 }
 
@@ -77,6 +97,16 @@ input:focus {
   width: 1649px;
 }
 
+.readytologoutquestion {
+  align-items: center;
+  background-color: var(--black);
+  display: flex;
+  flex-direction: column;
+  height: 1023px;
+  overflow: hidden;
+  padding: 58px 0;
+  width: 1649px;
+}
 .loginpage {
   align-items: center;
   background-color: var(--black);
@@ -130,12 +160,36 @@ input:focus {
   width: 1649px;
 }
 
+.loginpage .flex-row {
+  align-items: flex-start;
+  display: flex;
+  height: 29px;
+  margin-left: 11.0px;
+  min-width: 1252px;
+}
+
 .startpage .flex-row {
   align-items: flex-start;
   display: flex;
   height: 32px;
   min-width: 1346px;
 }
+
+.readytologoutquestion .flex-row {
+  align-items: flex-start;
+  display: flex;
+  height: 33px;
+  margin-right: 80.0px;
+  min-width: 1351px;
+}
+
+.signuppage .flex-row {
+  align-items: flex-end;
+  display: flex;
+  margin-left: 11.0px;
+  min-width: 1252px;
+}
+
 
 .logoutpageseeyousoon .flex-row {
   align-items: flex-start;
@@ -179,6 +233,17 @@ input:focus {
   width: 164px;
 }
 
+.signuppage .workout-tracker {
+  cursor: pointer;
+  height: 19px;
+  pointer-events: auto;
+  transition: all 0.2s ease;
+  width: 164px;
+}
+
+.signuppage .workout-tracker:hover {
+  transform: scale(1.1);
+}
 
 .logoutpageseeyousoon .workout-tracker:hover {
   transform: scale(1.1);
@@ -234,7 +299,23 @@ input:focus {
   min-width: 393px;
 }
 
+.signuppage .navbar {
+  align-items: flex-end;
+  display: flex;
+  height: 23px;
+  margin-left: 695px;
+  min-width: 393px;
+}
+
+
 .startpage .overlap-group {
+  align-self: flex-start;
+  height: 22px;
+  position: relative;
+  width: 170px;
+}
+
+.signuppage .overlap-group {
   align-self: flex-start;
   height: 22px;
   position: relative;
@@ -261,6 +342,18 @@ input:focus {
   position: relative;
   width: 170px;
 }
+
+.signuppage .workouts {
+  cursor: pointer;
+  height: 15px;
+  left: 0;
+  pointer-events: auto;
+  position: absolute;
+  top: 7px;
+  transition: all 0.2s ease;
+  width: 69px;
+}
+
 
 .logoutpageseeyousoon .workouts {
   cursor: pointer;
@@ -314,6 +407,10 @@ input:focus {
   transform: scale(1.1);
 }
 
+.signuppage .workouts:hover {
+  transform: scale(1.1);
+}
+
 
 .startpage .workouts:hover {
   transform: scale(1.1);
@@ -338,6 +435,15 @@ input:focus {
   width: 68px;
 }
 
+.signuppage .programs {
+  height: 15px;
+  left: 85px;
+  position: absolute;
+  top: 0;
+  width: 68px;
+}
+
+
 .startpage .programs {
   height: 15px;
   left: 85px;
@@ -355,6 +461,17 @@ input:focus {
 }
 
 .startpage .programs-1 {
+  cursor: pointer;
+  height: 15px;
+  left: 60px;
+  pointer-events: auto;
+  position: absolute;
+  top: 7px;
+  transition: all 0.2s ease;
+  width: 68px;
+}
+
+.signuppage .programs-1 {
   cursor: pointer;
   height: 15px;
   left: 60px;
@@ -402,6 +519,11 @@ input:focus {
   transform: scale(1.1);
 }
 
+.signuppage .programs-1:hover {
+  transform: scale(1.1);
+}
+
+
 .logoutpageseeyousoon .programs-1:hover {
   transform: scale(1.1);
 }
@@ -424,6 +546,19 @@ input:focus {
   transition: all 0.2s ease;
   width: 42px;
 }
+
+
+.signuppage .about {
+  cursor: pointer;
+  height: 15px;
+  left: 128px;
+  pointer-events: auto;
+  position: absolute;
+  top: 7px;
+  transition: all 0.2s ease;
+  width: 42px;
+}
+
 
 .errorpage .about {
   cursor: pointer;
@@ -466,6 +601,12 @@ input:focus {
   transform: scale(1.1);
 }
 
+
+.signuppage .about:hover {
+  transform: scale(1.1);
+}
+
+
 .notespage .about:hover {
   transform: scale(1.1);
 }
@@ -475,6 +616,16 @@ input:focus {
 }
 
 .errorpage .contact {
+  cursor: pointer;
+  height: 15px;
+  margin-left: 28px;
+  pointer-events: auto;
+  transition: all 0.2s ease;
+  width: 58px;
+}
+
+
+.signuppage .contact {
   cursor: pointer;
   height: 15px;
   margin-left: 28px;
@@ -515,6 +666,12 @@ input:focus {
   transform: scale(1.1);
 }
 
+
+.signuppage .contact:hover {
+  transform: scale(1.1);
+}
+
+
 .errorpage .contact:hover {
   transform: scale(1.1);
 }
@@ -534,6 +691,16 @@ input:focus {
   position: relative;
   width: 123px;
 }
+
+
+.signuppage .overlap-group1 {
+  height: 15px;
+  margin-bottom: 1px;
+  margin-left: 14px;
+  position: relative;
+  width: 123px;
+}
+
 
 .startpage .overlap-group1 {
   height: 15px;
@@ -614,6 +781,11 @@ input:focus {
 }
 
 
+.signuppage .healthy-living:hover {
+  transform: scale(1.1);
+}
+
+
 .notespage .healthy-living:hover {
   transform: scale(1.1);
 }
@@ -632,6 +804,19 @@ input:focus {
   transition: all 0.2s ease;
   width: 69px;
 }
+
+
+.signuppage .workouts-1 {
+  cursor: pointer;
+  height: 15px;
+  left: 54px;
+  pointer-events: auto;
+  position: absolute;
+  top: 0;
+  transition: all 0.2s ease;
+  width: 69px;
+}
+
 
 .errorpage .workouts-1 {
   cursor: pointer;
@@ -684,12 +869,26 @@ input:focus {
 }
 
 
+.signuppage .workouts-1:hover {
+  transform: scale(1.1);
+}
+
+
 .startpage .overlap-group2 {
   height: 451px;
   margin-right: 10.09px;
   margin-top: 110px;
   position: relative;
   width: 1243px;
+}
+
+
+.signuppage .overlap-group2 {
+  height: 416px;
+  margin-left: 24.91px;
+  margin-top: 151px;
+  position: relative;
+  width: 1238px;
 }
 
 
@@ -757,6 +956,17 @@ to{opacity: 1;
 }
 }
 
+
+.signuppage .running-stick-f-e-svgrepo-com-1 {
+  height: 395px;
+  left: 854px;
+  mix-blend-mode: lighten;
+  position: absolute;
+  top: 0;
+  width: 384px;
+}
+
+
 .startpage .running-stick-f-e-svgrepo-com-1 {
   height: 395px;
   left: 859px;
@@ -780,6 +990,16 @@ to{opacity: 1;
   position: absolute;
   top: 0;
   width: 384px;
+}
+
+
+.signuppage .flex-row-1 {
+  align-items: center;
+  align-self: flex-start;
+  display: flex;
+  height: 314px;
+  margin-top: 21px;
+  min-width: 1340px;
 }
 
 .startpage .flex-row-1 {
@@ -846,6 +1066,22 @@ to{opacity: 1;
   margin-top: 21px;
   min-width: 1264px;
 }
+
+
+.signuppage .flex-col {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  min-height: 314px;
+  width: 1129px;
+}
+
+.signuppage .flex-row-2 {
+  align-items: flex-start;
+  display: flex;
+  min-width: 930px;
+}
+
 
 .logoutpageseeyousoon .frame-3 {
   align-items: center;
