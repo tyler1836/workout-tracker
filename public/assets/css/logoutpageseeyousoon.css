@@ -5,18 +5,17 @@
   background-color: var(--black);
   display: flex;
   flex-direction: column;
-  height: 1023px;
+  height: 1028px;
   overflow: hidden;
-  padding: 58px 0;
-  width: 1649px;
+  padding: 60px 0;
+  width: 1628px;
 }
 
 .logoutpageseeyousoon .flex-row {
-  align-items: flex-start;
+  align-items: center;
   display: flex;
-  height: 32px;
-  margin-right: 121.0px;
-  min-width: 1310px;
+  margin-left: 21.0px;
+  min-width: 1267px;
 }
 
 .logoutpageseeyousoon .workout-tracker {
@@ -32,96 +31,87 @@
 }
 
 .logoutpageseeyousoon .navbar {
-  align-items: flex-end;
-  align-self: flex-end;
+  align-items: flex-start;
   display: flex;
-  height: 23px;
-  margin-left: 753px;
-  min-width: 393px;
+  height: 16px;
+  margin-bottom: 1.0px;
+  margin-left: 711px;
+  min-width: 392px;
 }
 
 .logoutpageseeyousoon .overlap-group {
-  align-self: flex-start;
-  height: 22px;
+  height: 15px;
   position: relative;
   width: 170px;
 }
 
-.logoutpageseeyousoon .workouts {
+.logoutpageseeyousoon .home-section-nav-bar {
   cursor: pointer;
   height: 15px;
   left: 0;
   pointer-events: auto;
   position: absolute;
-  top: 7px;
+  top: 0;
   transition: all 0.2s ease;
   width: 69px;
 }
 
-.logoutpageseeyousoon .workouts:hover {
+.logoutpageseeyousoon .home-section-nav-bar:hover {
   transform: scale(1.1);
 }
 
-.logoutpageseeyousoon .programs {
-  height: 15px;
-  left: 85px;
-  position: absolute;
-  top: 0;
-  width: 68px;
-}
-
-.logoutpageseeyousoon .programs-1 {
+.logoutpageseeyousoon .notes-section-nav-bar {
   cursor: pointer;
   height: 15px;
-  left: 60px;
+  left: 62px;
   pointer-events: auto;
   position: absolute;
-  top: 7px;
-  transition: all 0.2s ease;
+  top: 0;
+  transition: all 0.15s ease;
   width: 68px;
 }
 
-.logoutpageseeyousoon .programs-1:hover {
+.logoutpageseeyousoon .notes-section-nav-bar:hover {
   transform: scale(1.1);
 }
 
-.logoutpageseeyousoon .about {
+.logoutpageseeyousoon .about-section-nav-bar {
   cursor: pointer;
   height: 15px;
   left: 128px;
   pointer-events: auto;
   position: absolute;
-  top: 7px;
-  transition: all 0.2s ease;
+  top: 0;
+  transition: all 0.15s ease;
   width: 42px;
 }
 
-.logoutpageseeyousoon .about:hover {
+.logoutpageseeyousoon .about-section-nav-bar:hover {
   transform: scale(1.1);
 }
 
-.logoutpageseeyousoon .contact {
+.logoutpageseeyousoon .contact-section-nav-bar {
+  align-self: flex-end;
   cursor: pointer;
   height: 15px;
-  margin-left: 28px;
+  margin-left: 29px;
   pointer-events: auto;
-  transition: all 0.2s ease;
+  transition: all 0.15s ease;
   width: 58px;
 }
 
-.logoutpageseeyousoon .contact:hover {
+.logoutpageseeyousoon .contact-section-nav-bar:hover {
   transform: scale(1.1);
 }
 
-.logoutpageseeyousoon .overlap-group-1 {
+.logoutpageseeyousoon .overlap-group1 {
   height: 15px;
-  margin-bottom: 1px;
-  margin-left: 14px;
+  margin-left: 12px;
   position: relative;
   width: 123px;
 }
 
-.logoutpageseeyousoon .healthy-living {
+.logoutpageseeyousoon .login-section-nav-bar {
   cursor: pointer;
   height: 15px;
   left: 0;
@@ -132,11 +122,11 @@
   width: 97px;
 }
 
-.logoutpageseeyousoon .healthy-living:hover {
+.logoutpageseeyousoon .login-section-nav-bar:hover {
   transform: scale(1.1);
 }
 
-.logoutpageseeyousoon .workouts-1 {
+.logoutpageseeyousoon .logout-section-nav-bar {
   cursor: pointer;
   height: 15px;
   left: 54px;
@@ -147,65 +137,57 @@
   width: 69px;
 }
 
-.logoutpageseeyousoon .workouts-1:hover {
+.logoutpageseeyousoon .logout-section-nav-bar:hover {
   transform: scale(1.1);
 }
 
-.logoutpageseeyousoon .overlap-group4 {
-  height: 411px;
-  margin-right: 5.09px;
-  margin-top: 143px;
+.logoutpageseeyousoon .overlap-group2 {
+  height: 400px;
+  margin-right: 62.09px;
+  margin-top: 43px;
   position: relative;
-  width: 1240px;
+  width: 1200px;
 }
 
 .logoutpageseeyousoon .work-out-tracker-title {
-  height: 359px;
+  height: 367px;
   left: 0;
   position: absolute;
-  top: 52px;
-  width: 1057px;
+  top: 33px;
+  width: 1052px;
 }
 
 .logoutpageseeyousoon .running-stick-f-e-svgrepo-com-1 {
   height: 395px;
-  left: 856px;
+  left: 816px;
   mix-blend-mode: lighten;
   position: absolute;
   top: 0;
   width: 384px;
 }
 
-.logoutpageseeyousoon .navbar-1 {
-  align-items: flex-end;
-  display: flex;
-  height: 23px;
-  left: 584px;
-  min-width: 393px;
-  position: absolute;
-  top: 81px;
-}
-
-.logoutpageseeyousoon .frame-3 {
+.logoutpageseeyousoon .see-you-soon {
   align-items: center;
-  background-color: var(--white);
+  background-color: #ffffff82;
+  border-radius: 20px;
   display: flex;
   height: 166px;
   justify-content: center;
-  margin-right: 117.0px;
-  margin-top: 52px;
-  width: 1036px;
+  margin-left: 71.0px;
+  margin-top: 115px;
+  overflow: hidden;
+  width: 1007px;
 }
 
 .logoutpageseeyousoon .title {
-  color: #000000;
+  color: var(--black);
   font-family: var(--font-family-poppins);
   font-size: var(--font-size-xxxxxl);
   font-weight: 600;
   height: 51px;
   letter-spacing: 1.00px;
   line-height: 22px;
-  margin-left: 1px;
+  margin-left: 1.5px;
   margin-top: -10px;
   width: 578px;
 }
@@ -213,7 +195,7 @@
 .logoutpageseeyousoon .featured-in {
   align-self: flex-start;
   height: 75px;
-  margin-left: -52px;
-  margin-top: 42px;
+  margin-left: -54px;
+  margin-top: 103px;
   width: 600px;
 }

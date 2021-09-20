@@ -1,6 +1,6 @@
-/* screen - notespage */
+/* screen - notes-and-dashboard-page */
 
-.notespage {
+.notes-and-dashboard-page {
   align-items: flex-start;
   background-color: var(--black);
   display: flex;
@@ -11,7 +11,7 @@
   width: 1658px;
 }
 
-.notespage .overlap-group3 {
+.notes-and-dashboard-page .overlap-group3 {
   align-self: center;
   height: 164px;
   margin-left: 13.0px;
@@ -19,7 +19,7 @@
   width: 1291px;
 }
 
-.notespage .work-out-tracker-title {
+.notes-and-dashboard-page .work-out-tracker-title {
   height: 151px;
   left: 0;
   position: absolute;
@@ -27,7 +27,7 @@
   width: 1273px;
 }
 
-.notespage .workout-tracker {
+.notes-and-dashboard-page .workout-tracker {
   cursor: pointer;
   height: 19px;
   left: 0;
@@ -38,11 +38,11 @@
   width: 164px;
 }
 
-.notespage .workout-tracker:hover {
+.notes-and-dashboard-page .workout-tracker:hover {
   transform: scale(1.1);
 }
 
-.notespage .navbar {
+.notes-and-dashboard-page .navbar {
   align-items: flex-start;
   display: flex;
   height: 16px;
@@ -52,13 +52,13 @@
   top: 0;
 }
 
-.notespage .overlap-group {
+.notes-and-dashboard-page .overlap-group1 {
   height: 15px;
   position: relative;
   width: 131px;
 }
 
-.notespage .home-section-nav-bar {
+.notes-and-dashboard-page .home-section-nav-bar {
   cursor: pointer;
   height: 15px;
   left: 0;
@@ -69,11 +69,11 @@
   width: 69px;
 }
 
-.notespage .home-section-nav-bar:hover {
+.notes-and-dashboard-page .home-section-nav-bar:hover {
   transform: scale(1.1);
 }
 
-.notespage .notes-section-nav-bar {
+.notes-and-dashboard-page .notes-section-nav-bar {
   cursor: pointer;
   height: 15px;
   left: 63px;
@@ -84,11 +84,11 @@
   width: 68px;
 }
 
-.notespage .notes-section-nav-bar:hover {
+.notes-and-dashboard-page .notes-section-nav-bar:hover {
   transform: scale(1.1);
 }
 
-.notespage .about-section-nav-bar {
+.notes-and-dashboard-page .about-section-nav-bar {
   cursor: pointer;
   height: 15px;
   margin-left: 1px;
@@ -97,11 +97,11 @@
   width: 42px;
 }
 
-.notespage .about-section-nav-bar:hover {
+.notes-and-dashboard-page .about-section-nav-bar:hover {
   transform: scale(1.1);
 }
 
-.notespage .contact-section-nav-bar {
+.notes-and-dashboard-page .contact-section-nav-bar {
   align-self: flex-end;
   cursor: pointer;
   height: 15px;
@@ -111,18 +111,18 @@
   width: 58px;
 }
 
-.notespage .contact-section-nav-bar:hover {
+.notes-and-dashboard-page .contact-section-nav-bar:hover {
   transform: scale(1.1);
 }
 
-.notespage .overlap-group1 {
+.notes-and-dashboard-page .overlap-group {
   height: 15px;
   margin-left: 14px;
   position: relative;
   width: 124px;
 }
 
-.notespage .login-section-nav-bar {
+.notes-and-dashboard-page .login-section-nav-bar {
   cursor: pointer;
   height: 15px;
   left: 0;
@@ -133,11 +133,11 @@
   width: 97px;
 }
 
-.notespage .login-section-nav-bar:hover {
+.notes-and-dashboard-page .login-section-nav-bar:hover {
   transform: scale(1.1);
 }
 
-.notespage .logout-section-nav-bar {
+.notes-and-dashboard-page .logout-section-nav-bar {
   cursor: pointer;
   height: 15px;
   left: 55px;
@@ -148,11 +148,11 @@
   width: 69px;
 }
 
-.notespage .logout-section-nav-bar:hover {
+.notes-and-dashboard-page .logout-section-nav-bar:hover {
   transform: scale(1.1);
 }
 
-.notespage .flex-row {
+.notes-and-dashboard-page .flex-row {
   align-items: flex-start;
   display: flex;
   height: 680px;
@@ -161,22 +161,30 @@
   min-width: 1503px;
 }
 
-.notespage .flex-col {
-  align-items: flex-start;
+.notes-and-dashboard-page .flex-col {
+  align-items: center;
   display: flex;
   flex-direction: column;
   min-height: 680px;
-  width: 846px;
+  width: 600px;
 }
 
-.notespage .overlap-group2 {
-  align-self: flex-end;
+.notes-and-dashboard-page .workouts {
+  align-items: flex-end;
+  display: flex;
+  height: 62px;
+  margin-right: 23.0px;
+  min-width: 539px;
+}
+
+.notes-and-dashboard-page .overlap-group2 {
   height: 503px;
+  margin-bottom: -441px;
   position: relative;
   width: 827px;
 }
 
-.notespage .workouts {
+.notes-and-dashboard-page .workouts-1 {
   left: 0;
   letter-spacing: 0;
   position: absolute;
@@ -185,7 +193,7 @@
   width: 541px;
 }
 
-.notespage .workouts-left-side {
+.notes-and-dashboard-page .workouts-left-side {
   background-color: var(--white);
   height: 460px;
   left: 200px;
@@ -194,80 +202,72 @@
   width: 627px;
 }
 
-.notespage .featured-in {
+.notes-and-dashboard-page .featured-in {
   height: 75px;
-  margin-top: 102px;
+  margin-top: 543px;
   width: 600px;
 }
 
-.notespage .flex-col-1 {
+.notes-and-dashboard-page .flex-col-1 {
   align-items: flex-start;
   display: flex;
   flex-direction: column;
-  margin-left: 66px;
-  margin-top: 9px;
-  min-height: 586px;
-  width: 591px;
+  margin-left: 308px;
+  min-height: 595px;
+  width: 595px;
 }
 
-.notespage .title {
+.notes-and-dashboard-page .title {
+  align-items: flex-end;
+  display: flex;
+  height: 37px;
+  min-width: 211px;
+  padding: 1px 75.5px;
+}
+
+.notes-and-dashboard-page .title-1 {
   height: 27px;
-  margin-left: 71.5px;
   width: 60px;
 }
 
-.notespage .title-1 {
+.notes-and-dashboard-page .title-2 {
   background-color: var(--white);
-  display: flex;
   height: 45px;
-  margin-top: 1px;
+  margin-left: 4px;
   width: 590px;
 }
 
-.notespage .text {
-  background-color: transparent;
-  border: 0;
-  color: var(--black);
-  font-family: var(--font-family-inter);
-  font-size: var(--font-size-xxl);
-  font-weight: 700;
-  height: 23px;
-  letter-spacing: 0;
-  margin-left: 15px;
-  margin-top: 10px;
-  padding: 0;
-  width: 566px;
-}
-
-.notespage .text::placeholder {
-  color: #00000099;
-}
-
-.notespage .place {
-  letter-spacing: 0;
-  margin-left: 1px;
+.notes-and-dashboard-page .post {
+  display: flex;
+  height: 37px;
+  margin-left: 5px;
   margin-top: 14px;
-  min-height: 37px;
+  width: 211px;
+}
+
+.notes-and-dashboard-page .place {
+  flex: 1;
+  letter-spacing: 0;
   width: 213px;
 }
 
-.notespage .post {
+.notes-and-dashboard-page .post-1 {
+  align-self: flex-end;
   background-color: var(--white);
   height: 370px;
-  margin-left: 1px;
+  margin-right: 1px;
   width: 589px;
 }
 
-.notespage .flex-row-1 {
-  align-items: flex-end;
+.notes-and-dashboard-page .flex-row-1 {
+  align-items: flex-start;
   align-self: flex-end;
   display: flex;
-  height: 79px;
-  margin-top: 13px;
+  margin-top: 14px;
   min-width: 383px;
 }
 
-.notespage .login-button {
+.notes-and-dashboard-page .login-button {
   cursor: pointer;
   height: 78px;
   pointer-events: auto;
@@ -275,33 +275,19 @@
   width: 123px;
 }
 
-.notespage .login-button:hover {
+.notes-and-dashboard-page .login-button:hover {
   transform: scale(1.1);
 }
 
-.notespage .login-button-1 {
-  align-self: flex-start;
+.notes-and-dashboard-page .x-button {
   cursor: pointer;
   height: 78px;
-  margin-left: 11px;
+  margin-left: 7px;
   pointer-events: auto;
   transition: all 0.2s ease;
   width: 123px;
 }
 
-.notespage .login-button-1:hover {
-  transform: scale(1.1);
-}
-
-.notespage .delete-button {
-  cursor: pointer;
-  height: 78px;
-  margin-left: 3px;
-  pointer-events: auto;
-  transition: all 0.2s ease;
-  width: 123px;
-}
-
-.notespage .delete-button:hover {
+.notes-and-dashboard-page .x-button:hover {
   transform: scale(1.1);
 }

@@ -5,18 +5,17 @@
   background-color: var(--black);
   display: flex;
   flex-direction: column;
-  height: 1023px;
+  height: 1028px;
   overflow: hidden;
-  padding: 58px 0;
-  width: 1649px;
+  padding: 57px 0;
+  width: 1657px;
 }
 
 .readytologoutquestion .flex-row {
-  align-items: flex-start;
+  align-items: flex-end;
   display: flex;
-  height: 33px;
-  margin-right: 80.0px;
-  min-width: 1351px;
+  margin-left: 23.0px;
+  min-width: 1292px;
 }
 
 .readytologoutquestion .workout-tracker {
@@ -32,96 +31,83 @@
 }
 
 .readytologoutquestion .navbar {
-  align-items: flex-end;
-  align-self: flex-end;
+  align-items: flex-start;
   display: flex;
-  height: 23px;
-  margin-left: 794px;
-  min-width: 393px;
+  height: 16px;
+  margin-left: 732px;
+  min-width: 396px;
 }
 
 .readytologoutquestion .overlap-group1 {
-  align-self: flex-start;
-  height: 22px;
+  height: 15px;
   position: relative;
-  width: 170px;
+  width: 130px;
 }
 
-.readytologoutquestion .workouts {
+.readytologoutquestion .home-section-nav-bar {
   cursor: pointer;
   height: 15px;
   left: 0;
   pointer-events: auto;
   position: absolute;
-  top: 7px;
+  top: 0;
   transition: all 0.2s ease;
   width: 69px;
 }
 
-.readytologoutquestion .workouts:hover {
+.readytologoutquestion .home-section-nav-bar:hover {
   transform: scale(1.1);
 }
 
-.readytologoutquestion .programs {
+.readytologoutquestion .notes-section-nav-bar {
+  cursor: pointer;
   height: 15px;
-  left: 85px;
+  left: 62px;
+  pointer-events: auto;
   position: absolute;
   top: 0;
+  transition: all 0.15s ease;
   width: 68px;
 }
 
-.readytologoutquestion .programs-1 {
-  cursor: pointer;
-  height: 15px;
-  left: 60px;
-  pointer-events: auto;
-  position: absolute;
-  top: 7px;
-  transition: all 0.2s ease;
-  width: 68px;
-}
-
-.readytologoutquestion .programs-1:hover {
+.readytologoutquestion .notes-section-nav-bar:hover {
   transform: scale(1.1);
 }
 
-.readytologoutquestion .about {
+.readytologoutquestion .about-section-nav-bar {
   cursor: pointer;
   height: 15px;
-  left: 128px;
   pointer-events: auto;
-  position: absolute;
-  top: 7px;
-  transition: all 0.2s ease;
+  transition: all 0.15s ease;
   width: 42px;
 }
 
-.readytologoutquestion .about:hover {
+.readytologoutquestion .about-section-nav-bar:hover {
   transform: scale(1.1);
 }
 
-.readytologoutquestion .contact {
+.readytologoutquestion .contact-section-nav-bar {
+  align-self: flex-end;
   cursor: pointer;
   height: 15px;
-  margin-left: 28px;
+  margin-left: 29px;
   pointer-events: auto;
-  transition: all 0.2s ease;
+  transition: all 0.15s ease;
   width: 58px;
 }
 
-.readytologoutquestion .contact:hover {
+.readytologoutquestion .contact-section-nav-bar:hover {
   transform: scale(1.1);
 }
 
 .readytologoutquestion .overlap-group {
   height: 15px;
-  margin-bottom: 1px;
   margin-left: 14px;
   position: relative;
   width: 123px;
 }
 
-.readytologoutquestion .healthy-living {
+.readytologoutquestion .login-section-nav-bar {
   cursor: pointer;
   height: 15px;
   left: 0;
@@ -132,11 +118,11 @@
   width: 97px;
 }
 
-.readytologoutquestion .healthy-living:hover {
+.readytologoutquestion .login-section-nav-bar:hover {
   transform: scale(1.1);
 }
 
-.readytologoutquestion .workouts-1 {
+.readytologoutquestion .logout-section-nav-bar {
   cursor: pointer;
   height: 15px;
   left: 54px;
@@ -147,16 +133,16 @@
   width: 69px;
 }
 
-.readytologoutquestion .workouts-1:hover {
+.readytologoutquestion .logout-section-nav-bar:hover {
   transform: scale(1.1);
 }
 
 .readytologoutquestion .overlap-group2 {
   height: 395px;
-  margin-right: 26.09px;
-  margin-top: 168px;
+  margin-right: 63.09px;
+  margin-top: 53px;
   position: relative;
-  width: 1219px;
+  width: 1206px;
 }
 
 .readytologoutquestion .work-out-tracker-title {
@@ -169,31 +155,22 @@
 
 .readytologoutquestion .running-stick-f-e-svgrepo-com-1 {
   height: 395px;
-  left: 835px;
+  left: 822px;
   mix-blend-mode: lighten;
   position: absolute;
   top: 0;
   width: 384px;
 }
 
-.readytologoutquestion .frame-3 {
-  background-color: var(--white);
-  display: flex;
-  height: 89px;
-  margin-right: 174.0px;
-  margin-top: 15px;
-  width: 607px;
-}
-
 .readytologoutquestion .ready-to-logout {
-  color: #000000;
+  color: var(--white);
   font-family: var(--font-family-poppins);
   font-size: var(--font-size-xxxxl);
   font-weight: 600;
   height: 58px;
   letter-spacing: 1.00px;
-  margin-left: 35px;
-  margin-top: 18px;
+  margin-right: 121.0px;
+  margin-top: 82px;
   text-align: center;
   width: 542px;
 }
@@ -201,9 +178,9 @@
 .readytologoutquestion .flex-row-1 {
   align-items: flex-start;
   display: flex;
-  margin-right: 155.0px;
-  margin-top: 44px;
-  min-width: 310px;
+  margin-right: 120.0px;
+  margin-top: 56px;
+  min-width: 389px;
 }
 
 .readytologoutquestion .login-button {
@@ -221,7 +198,7 @@
 .readytologoutquestion .login-button-1 {
   cursor: pointer;
   height: 78px;
-  margin-left: 64px;
+  margin-left: 143px;
   pointer-events: auto;
   transition: all 0.2s ease;
   width: 123px;
@@ -234,7 +211,7 @@
 .readytologoutquestion .featured-in {
   align-self: flex-start;
   height: 75px;
-  margin-left: -52px;
-  margin-top: 24px;
+  margin-left: -51px;
+  margin-top: 108px;
   width: 600px;
 }

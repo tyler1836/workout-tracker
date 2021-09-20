@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1649, maximum-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <link rel="stylesheet" type="text/css" href="css/loginpage.css" />
+    <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
+    <link rel="stylesheet" type="text/css" href="css/globals.css" />
+    <meta name="author" content="AnimaApp.com - Design to code, Automated." />
+  </head>
+  <body style="margin: 0; background: #171717">
+    <input type="hidden" id="anPageName" name="page" value="loginpage" />
+    <div class="container-center-horizontal">
+      <form class="loginpage screen" name="form51" action="form51" method="post">
+        <div class="flex-row">
+          <a href="javascript:SubmitForm('form51')" class="align-self-flex-end"
+            ><img class="workout-tracker smart-layers-pointers" src="img/workout-tracker-1@1x.png" />
+          </a>
+          <div class="navbar">
+            <div class="overlap-group1">
+              <a href="javascript:SubmitForm('form51')"
+                ><img class="home-section-nav-bar smart-layers-pointers" src="img/workouts@1x.png" /> </a
+              ><a href="javascript:SubmitForm('form51')"
+                ><img class="notes-section-nav-bar smart-layers-pointers" src="img/programs-1@1x.png" />
+              </a>
+            </div>
+            <a href="javascript:SubmitForm('form51')"
+              ><img class="about-section-nav-bar smart-layers-pointers" src="img/about@1x.png" /> </a
+            ><a href="javascript:SubmitForm('form51')" class="align-self-flex-end"
+              ><img class="contact-section-nav-bar smart-layers-pointers" src="img/contact-1@1x.png" />
+            </a>
+            <div class="overlap-group">
+              <a href="javascript:SubmitForm('form51')"
+                ><img class="login-section-nav-bar smart-layers-pointers" src="img/healthy-living@1x.png" /> </a
+              ><a href="javascript:SubmitForm('form51')"
+                ><img class="logout-section-nav-bar smart-layers-pointers" src="img/workouts-1@1x.png" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="overlap-group2">
+          <img class="work-out-tracker-title" src="img/workouttracker-title-2@1x.png" />
+          <img class="running-stick-f-e-svgrepo-com-1" src="img/running-stick-figure-svgrepo-com-1@1x.png" />
+        </div>
+        <div class="flex-row-1">
+          <div class="flex-col">
+            <div class="overlap-group3">
+              <div class="email-text-input"></div>
+              <img class="email-purple-box" src="img/emailpurple-box@1x.png" />
+            </div>
+            <div class="flex-row-2">
+              <img class="password-green-box" src="img/password-green-box@1x.png" />
+              <div class="password-text-input"></div>
+            </div>
+            <img class="footer" src="img/footer-1@1x.png" />
+          </div>
+          <a href="javascript:SubmitForm('form51')"
+            ><img class="login-button smart-layers-pointers" src="img/login-button@1x.png" />
+          </a>
+        </div>
+      </form>
+    </div>
+    <script>
+      /* Copyright (c) 2016 Tobias Buschor https://goo.gl/gl0mbf | MIT License https://goo.gl/HgajeK */
+
+      if (!HTMLFormElement.prototype.reportValidity) {
+        HTMLFormElement.prototype.reportValidity = function () {
+          if (this.checkValidity()) return true;
+          var btn = document.createElement("button");
+          this.appendChild(btn);
+          btn.click();
+          this.removeChild(btn);
+          return false;
+        };
+      }
+
+      function SubmitForm(form_name) {
+        var form = document.getElementsByName(form_name)[0];
+        if (form.reportValidity()) {
+          form.submit();
+          if (window.submitted) window.submitted();
+        }
+      }
+    </script>
+  </body>
+</html>
