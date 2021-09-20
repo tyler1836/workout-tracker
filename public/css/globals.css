@@ -1,6 +1,6 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
 
-@import url("https://fonts.googleapis.com/css?family=Poppins:600");
+@import url("https://fonts.googleapis.com/css?family=Poppins:600|Inter:700,600");
 
 .screen a {
   display: contents;
@@ -18,6 +18,14 @@
 .container-center-horizontal > * {
   flex-shrink: 0;
   pointer-events: auto;
+}
+
+.align-self-flex-start {
+  align-self: flex-start;
+}
+
+.align-self-flex-end {
+  align-self: flex-end;
 }
 
 .valign-text-middle {

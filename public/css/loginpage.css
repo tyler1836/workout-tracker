@@ -6,19 +6,20 @@
   display: flex;
   flex-direction: column;
   height: 1023px;
-  padding: 59px 34px;
+  padding: 58px 34px;
   width: 1649px;
 }
 
 .loginpage .flex-row {
   align-items: flex-start;
   display: flex;
-  height: 29px;
-  margin-left: 11.0px;
-  min-width: 1252px;
+  height: 20px;
+  margin-left: 27.0px;
+  min-width: 1268px;
 }
 
 .loginpage .workout-tracker {
+  align-self: flex-end;
   cursor: pointer;
   height: 19px;
   pointer-events: auto;
@@ -31,96 +32,83 @@
 }
 
 .loginpage .navbar {
-  align-items: flex-end;
-  align-self: flex-end;
+  align-items: flex-start;
   display: flex;
-  height: 23px;
-  margin-left: 695px;
-  min-width: 393px;
+  height: 16px;
+  margin-left: 709px;
+  min-width: 395px;
 }
 
-.loginpage .overlap-group {
-  align-self: flex-start;
-  height: 22px;
+.loginpage .overlap-group1 {
+  height: 15px;
   position: relative;
-  width: 170px;
+  width: 130px;
 }
 
-.loginpage .workouts {
+.loginpage .home-section-nav-bar {
   cursor: pointer;
   height: 15px;
   left: 0;
   pointer-events: auto;
   position: absolute;
-  top: 7px;
+  top: 0;
   transition: all 0.2s ease;
   width: 69px;
 }
 
-.loginpage .workouts:hover {
+.loginpage .home-section-nav-bar:hover {
   transform: scale(1.1);
 }
 
-.loginpage .programs {
+.loginpage .notes-section-nav-bar {
+  cursor: pointer;
   height: 15px;
-  left: 85px;
+  left: 62px;
+  pointer-events: auto;
   position: absolute;
   top: 0;
+  transition: all 0.15s ease;
   width: 68px;
 }
 
-.loginpage .programs-1 {
-  cursor: pointer;
-  height: 15px;
-  left: 60px;
-  pointer-events: auto;
-  position: absolute;
-  top: 7px;
-  transition: all 0.2s ease;
-  width: 68px;
-}
-
-.loginpage .programs-1:hover {
+.loginpage .notes-section-nav-bar:hover {
   transform: scale(1.1);
 }
 
-.loginpage .about {
+.loginpage .about-section-nav-bar {
   cursor: pointer;
   height: 15px;
-  left: 128px;
   pointer-events: auto;
-  position: absolute;
-  top: 7px;
-  transition: all 0.2s ease;
+  transition: all 0.15s ease;
   width: 42px;
 }
 
-.loginpage .about:hover {
+.loginpage .about-section-nav-bar:hover {
   transform: scale(1.1);
 }
 
-.loginpage .contact {
+.loginpage .contact-section-nav-bar {
+  align-self: flex-end;
   cursor: pointer;
   height: 15px;
   margin-left: 28px;
   pointer-events: auto;
-  transition: all 0.2s ease;
+  transition: all 0.15s ease;
   width: 58px;
 }
 
-.loginpage .contact:hover {
+.loginpage .contact-section-nav-bar:hover {
   transform: scale(1.1);
 }
 
-.loginpage .overlap-group1 {
+.loginpage .overlap-group {
   height: 15px;
-  margin-bottom: 1px;
   margin-left: 14px;
   position: relative;
   width: 123px;
 }
 
-.loginpage .healthy-living {
+.loginpage .login-section-nav-bar {
   cursor: pointer;
   height: 15px;
   left: 0;
@@ -131,11 +119,11 @@
   width: 97px;
 }
 
-.loginpage .healthy-living:hover {
+.loginpage .login-section-nav-bar:hover {
   transform: scale(1.1);
 }
 
-.loginpage .workouts-1 {
+.loginpage .logout-section-nav-bar {
   cursor: pointer;
   height: 15px;
   left: 54px;
@@ -146,29 +134,29 @@
   width: 69px;
 }
 
-.loginpage .workouts-1:hover {
+.loginpage .logout-section-nav-bar:hover {
   transform: scale(1.1);
 }
 
 .loginpage .overlap-group2 {
-  height: 412px;
-  margin-left: 47.91px;
-  margin-top: 145px;
+  height: 399px;
+  margin-left: 21.91px;
+  margin-top: 86px;
   position: relative;
-  width: 1261px;
+  width: 1203px;
 }
 
 .loginpage .work-out-tracker-title {
   height: 359px;
   left: 0;
   position: absolute;
-  top: 53px;
+  top: 40px;
   width: 1057px;
 }
 
 .loginpage .running-stick-f-e-svgrepo-com-1 {
   height: 395px;
-  left: 877px;
+  left: 819px;
   mix-blend-mode: lighten;
   position: absolute;
   top: 0;
@@ -176,69 +164,83 @@
 }
 
 .loginpage .flex-row-1 {
-  align-items: center;
+  align-items: flex-start;
   align-self: flex-start;
   display: flex;
-  height: 314px;
-  margin-top: 21px;
-  min-width: 1360px;
+  height: 377px;
+  margin-top: 40px;
+  min-width: 1343px;
 }
 
 .loginpage .flex-col {
   align-items: flex-end;
   display: flex;
   flex-direction: column;
-  min-height: 314px;
-  width: 1129px;
+  min-height: 377px;
+  width: 1134px;
+}
+
+.loginpage .overlap-group3 {
+  height: 89px;
+  position: relative;
+  width: 867px;
+}
+
+.loginpage .email-text-input {
+  background-color: var(--white);
+  border-radius: 20px;
+  height: 89px;
+  left: 261px;
+  position: absolute;
+  top: 0;
+  width: 606px;
+}
+
+.loginpage .email-purple-box {
+  height: 87px;
+  left: 0;
+  position: absolute;
+  top: 2px;
+  width: 303px;
 }
 
 .loginpage .flex-row-2 {
   align-items: flex-start;
   display: flex;
-  min-width: 930px;
+  height: 104px;
+  margin-top: 21px;
+  min-width: 921px;
 }
 
-.loginpage .purple-box {
-  height: 98px;
+.loginpage .password-green-box {
+  align-self: flex-end;
+  height: 83px;
   width: 303px;
 }
 
-.loginpage .frame {
+.loginpage .password-text-input {
   background-color: var(--white);
+  border-radius: 20px;
   height: 89px;
-  margin-left: 21px;
+  margin-left: 12px;
   width: 606px;
 }
 
-.loginpage .flex-row-3 {
-  align-items: flex-start;
-  display: flex;
-  height: 95px;
-  margin-top: 12px;
-  min-width: 930px;
-}
-
-.loginpage .green-box {
-  align-self: flex-end;
-  height: 89px;
-  width: 303px;
-}
-
-.loginpage .featured-in {
+.loginpage .footer {
   align-self: flex-start;
   height: 75px;
-  margin-top: 34px;
+  margin-top: 88px;
   width: 600px;
 }
 
 .loginpage .login-button {
   cursor: pointer;
   height: 78px;
-  margin-bottom: 110.0px;
-  margin-left: 108px;
+  margin-left: 38px;
+  margin-top: 64px;
   pointer-events: auto;
   transition: all 0.2s ease;
-  width: 123px;
+  width: 171px;
 }
 
 .loginpage .login-button:hover {
