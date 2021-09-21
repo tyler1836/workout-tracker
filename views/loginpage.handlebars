@@ -1,39 +1,29 @@
-<link rel="stylesheet" type="text/css" href="css/loginpage.css" />
+<div class="container-center-horizontal">
+  <form class="screen">
 
+    {{> navigation}}
 
-  
-  <div class="container-center-horizontal">
-    <form class=" screen" >
+    {{> stickman}}
 
-      {{> navigation}}
+    <form class="login">
 
-      {{> stickman}}
-
-      <div class="flex-row-1">
-        <div class="flex-col" >
-          <div class="flex-row-2">
-            <img class="purple-box" src="img/purple-box-1@1x.png" />
-            <input class="frame"></input>
-          </div>
-          <div class="flex-row-3">
-            <img class="green-box" src="img/passwordgreenbox@1x.png" />
-            <input class="frame"></input>
-          </div>
+      <div class="grid">
+        <div class="col-1">
+          <label class="label">Email</label>
+          <input class="input" type="email" id="email-login" placeholder="Email">
+          <label class="label">Password</label>
+          <input class="input" type="password" id="password-login" placeholder="Password">
         </div>
-
-      
-  
-
-        <a href="javascript:SubmitForm('form73')"><img class="login-button smart-layers-pointers"
-            src="img/login-button-5@1x.png" />
-        </a>
-
-
+        <div class="col-2">
+          <button class="yellow button" type="submit">
+            Login
+          </button>
+        </div>
       </div>
 
-       {{> footer}}
-     
     </form>
-    
-  </div>
 
+</div>
+{{> footer}}
+
+</form>

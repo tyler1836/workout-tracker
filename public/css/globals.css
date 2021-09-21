@@ -1,119 +1,238 @@
-@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url('https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css');
 
-@import url("https://fonts.googleapis.com/css?family=Poppins:600");
+@import url('https://fonts.googleapis.com/css?family=Poppins:600');
 
 body {
-  background-color: black;
-  font-family: 'Franklin Gothic ', 'Arial Narrow', Arial, sans-serif;
+	background-color: black;
+	font-family: 'Poppins', 'Franklin Gothic ', 'Arial Narrow', Arial, sans-serif;
 }
 .wrapper {
-  display: flex;
- 
+	display: flex;
 }
 main {
-  margin: 10px auto;
+	margin: 10px auto;
+}
+/* navigation.handlebars */
+.navigation {
+	display: flex;
+	justify-content: space-between;
+}
+
+.navigation .navbar {
+	display: inline-flex;
+}
+
+.navigation .navbar li a {
+	text-decoration: none;
+	display: block;
+	padding: 5px 10px;
+
+	color: rgb(206, 206, 206);
+	font-weight: 100;
+	font-size: 14px;
+}
+.navigation .navbar li a:hover {
+	color: white;
 }
 /* stickman */
 .stickman {
-  margin: 145px 0 40px;
-  position: relative;
-  width: 100%;
+	margin: 40px 0 40px;
 }
-
 .button-row {
-  margin: 0 0 40px 0;
+	margin: 0 0 40px 0;
 }
-
 
 /* buttons */
 .button {
-  text-transform: uppercase;
-  border: none;
-  border-radius: 6px;
-  padding: 15px;
-  cursor: pointer;
-  text-decoration: none;
-  
+	text-transform: uppercase;
+	border: none;
+	border-radius: 6px;
+	padding: 15px 22px;
+	cursor: pointer;
+	text-decoration: none;
+	font-size: 20px;
 }
 .orange {
-  background-color: #E6533C;
-  color: #fff;
+	background-color: #e6533c;
+	color: #fff;
 }
 .yellow {
-  background-color: #F8C33B;
-  color: #fff;
+	background-color: #f8c33b;
+	color: #fff;
+}
+.teal {
+	background-color: rgb(19, 222, 230);
+	color: #fff;
+}
+.red {
+	background-color: #c5132b;
+	color: #fff;
 }
 
-.screen a {
-  display: contents;
-  text-decoration: none;
+/* forms */
+
+*,
+*:after,
+*:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+[class*='col-'] {
+	float: left;
+}
+
+.col-1 {
+	width: 35%;
+}
+.col-2 {
+	/* nothing here to declare note that changing the text in the join button will break the layout for some reason */
+}
+/* login page button */
+.col-2 button {
+	margin: 25px 0 0;
+}
+/* signup page button */
+.col-2 .signup-button {
+	margin: 55px 0 0;
+}
+.col-1 label {
+	color: #fff;
+	text-align: right;
+	font-size: 22px;
+	font-weight: bold;
+	margin: 8px 8px 0 0;
+	display: inline-block;
+	width: 32%;
+}
+.input {
+	border: none;
+	border-radius: 6px;
+	padding: 15px;
+	font-size: 18px;
+	margin-bottom: 4px;
+}
+
+input ::placeholder {
+	color: red;
+}
+.grid:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+/* dashboard */
+h1 {
+  border-bottom: solid 1px rgb(109, 109, 109);
+  color:#fff;
+  font-size: 20px;
+  margin: 33px 0 0 0;
+  padding: 0 0 6px 0;
+}
+#note-taker {
+	width: 100%;
+	margin: 60px 0 0 0;
+}
+#note-taker .col-1 {
+	width: 48%;
+}
+#note-taker .col-2 {
+	width: 48%;
+}
+#note-taker label {
+	padding: 0 0 0 6px;
+	color: #fff;
+}
+#note-taker input {
+	width: 620px;
+}
+#note-taker textarea {
+	width: 620px;
+	height: 250px;
+	border: none;
+	border-radius: 6px;
+	padding: 15px;
+	font-size: 18px;
+	margin-bottom: 4px;
+}
+#note-taker button {
+	margin: 0 20px 0 0;
+}
+#note-taker h2 {
+	color: rgb(231, 231, 231);
+	font-size: 22px;
+	margin: 0 0 20px 0;
+}
+#note-taker ul li a {
+	color: rgb(168, 168, 168);
+	display: block;
+	padding: 8px;
+	margin: 3px 0;
+	text-decoration: none;
+	border: solid 1px rgb(75, 75, 75);
+	border-radius: 6px;
+	width: 85%;
+	letter-spacing: 0.5px;
+}
+#note-taker ul li a:hover {
+	color: #fff;
+	border: solid 1px rgb(121, 121, 121);
+}
+
+/* placeholder text  */
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+	font-family: 'Arial', Helvetica, sans-serif;
+}
+
+input:-ms-input-placeholder,
+textarea::-webkit-input-placeholder {
+	font-family: 'Arial', Helvetica, sans-serif;
+}
+
+input:-moz-placeholder,
+textarea::-webkit-input-placeholder {
+	font-family: 'Arial', Helvetica, sans-serif;
+}
+
+input::-moz-placeholder,
+textarea::-webkit-input-placeholder {
+	font-family: 'Arial', Helvetica, sans-serif;
+}
+
+.screen {
+	width: 100%;
 }
 
 .container-center-horizontal {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  pointer-events: none;
-  width: 100%;
-}
-
-.container-center-horizontal > * {
-  flex-shrink: 0;
-  pointer-events: auto;
+	width: 1280px;
 }
 
 .valign-text-middle {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
 input:focus {
-  outline: none;
+	outline: none;
 }
 
 .smart-layers-pointers,
 .smart-layers-pointers * {
-  pointer-events: auto;
-  visibility: visible;
+	pointer-events: auto;
+	visibility: visible;
 }
 
 * {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 
-/* navigation.handlebars */
-.navigation {
-  display: flex;
-  justify-content: space-between;
-}
-
-
-
-.navigation .navbar  {
-  display: inline-flex;
-}
-
-
-.navigation .navbar li a {
-  text-decoration: none;
-  display: block;
-  padding: 5px 10px;
- 
-  color: rgb(206, 206, 206);
-  font-weight: 100;
-  font-size: 14px;
-}
-.navigation .navbar li a:hover {
-  color: white;
-
-}
-
-/* footer */ 
+/* footer */
 .footer {
-  margin-top: 5px;
-  border-top: solid 1px rgb(165, 165, 165);
-  padding: 8px;
-  width: 100%;
-
+	margin-top: 30px;
+	border-top: solid 1px rgb(109, 109, 109);
+	padding: 8px;
+	width: 100%;
 }

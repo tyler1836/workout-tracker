@@ -17,6 +17,9 @@ router.get('/error', (req, res) => {
 router.get('/signup', (req, res) => {
     res.render('signuppage')
 });
+router.get('/dashboard', (req, res) => {
+    res.render('notespage')
+});
 
 router.get('/logout', (req, res) =>{
     res.render('readytologoutquestion')
