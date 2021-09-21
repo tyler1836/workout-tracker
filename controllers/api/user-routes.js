@@ -15,16 +15,16 @@ const loggedIn =(req, res, next) => {
 }
 
 
-router.get('/', (req, res) => {
-  res.render('notespage')
+router.get('/login', (req, res) => {
+  res.render('loginpage')
 });
 
 router.get('/signup', (req, res) => {
-  res.render('signup')
+  res.render('signuppage')
 });
 
 router.get('/dashboard', loggedIn, (req, res)=> {
-  res.render('/notespage')
+  res.render('notespage')
 });
 
 
@@ -69,6 +69,7 @@ router.post('/login', async (req, res) => {
     return res.redirect('/login')
   }
   await req.session.save(() => {
+    req.session.user_id = user.id;
     req.session.username = user.username;
     req.session.loggedIn = true;
     res.json({ user: dbUserData, message: 'You are now logged in!' });
