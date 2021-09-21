@@ -2,7 +2,7 @@
 
 .startpage {
   align-items: flex-end;
-  background-color: var(--black);
+  /* background-color: var(--black); */
   display: flex;
   flex-direction: column;
   height: 1023px;
@@ -34,7 +34,7 @@
   align-self: flex-end;
   display: flex;
   height: 23px;
-  margin-left: 789px;
+  margin-left: 695px;
   min-width: 393px;
 }
 

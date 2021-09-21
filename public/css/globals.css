@@ -2,6 +2,48 @@
 
 @import url("https://fonts.googleapis.com/css?family=Poppins:600");
 
+body {
+  background-color: black;
+  font-family: 'Franklin Gothic ', 'Arial Narrow', Arial, sans-serif;
+}
+.wrapper {
+  display: flex;
+ 
+}
+main {
+  margin: 10px auto;
+}
+/* stickman */
+.stickman {
+  margin: 145px 0 40px;
+  position: relative;
+  width: 100%;
+}
+
+.button-row {
+  margin: 0 0 40px 0;
+}
+
+
+/* buttons */
+.button {
+  text-transform: uppercase;
+  border: none;
+  border-radius: 6px;
+  padding: 15px;
+  cursor: pointer;
+  text-decoration: none;
+  
+}
+.orange {
+  background-color: #E6533C;
+  color: #fff;
+}
+.yellow {
+  background-color: #F8C33B;
+  color: #fff;
+}
+
 .screen a {
   display: contents;
   text-decoration: none;
@@ -38,4 +80,40 @@ input:focus {
 
 * {
   box-sizing: border-box;
+}
+
+/* navigation.handlebars */
+.navigation {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+.navigation .navbar  {
+  display: inline-flex;
+}
+
+
+.navigation .navbar li a {
+  text-decoration: none;
+  display: block;
+  padding: 5px 10px;
+ 
+  color: rgb(206, 206, 206);
+  font-weight: 100;
+  font-size: 14px;
+}
+.navigation .navbar li a:hover {
+  color: white;
+
+}
+
+/* footer */ 
+.footer {
+  margin-top: 5px;
+  border-top: solid 1px rgb(165, 165, 165);
+  padding: 8px;
+  width: 100%;
+
 }

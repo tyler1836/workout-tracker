@@ -2,10 +2,10 @@
 
 .loginpage {
   align-items: center;
-  background-color: var(--black);
+  
   display: flex;
   flex-direction: column;
-  height: 1023px;
+  /* height: 1023px; */
   padding: 59px 34px;
   width: 1649px;
 }
@@ -150,30 +150,8 @@
   transform: scale(1.1);
 }
 
-.loginpage .overlap-group2 {
-  height: 412px;
-  margin-left: 47.91px;
-  margin-top: 145px;
-  position: relative;
-  width: 1261px;
-}
 
-.loginpage .work-out-tracker-title {
-  height: 359px;
-  left: 0;
-  position: absolute;
-  top: 53px;
-  width: 1057px;
-}
 
-.loginpage .running-stick-f-e-svgrepo-com-1 {
-  height: 395px;
-  left: 877px;
-  mix-blend-mode: lighten;
-  position: absolute;
-  top: 0;
-  width: 384px;
-}
 
 .loginpage .flex-row-1 {
   align-items: center;
@@ -188,8 +166,8 @@
   align-items: flex-end;
   display: flex;
   flex-direction: column;
-  min-height: 314px;
-  width: 1129px;
+  /* min-height: 314px; */
+  /* width: 1129px; */
 }
 
 .loginpage .flex-row-2 {

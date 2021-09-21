@@ -6,7 +6,6 @@
     <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
     <meta name="og:type" content="website" />
     <meta name="twitter:card" content="photo" />
-    <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
     <link rel="stylesheet" type="text/css" href="css/globals.css" />
      <link rel="stylesheet" type="text/css" href="css/mainstyle.css" />
     <meta name="author" content="AnimaApp.com - Design to code, Automated." />
@@ -15,7 +14,7 @@
 
 <body>
   <div class="wrapper">
-      <header class="hero">
+      {{!-- <header class="hero">
           <div>
             <nav class"nav">
                     <a class="link" href="/"><button> Home </button></a>
@@ -28,11 +27,18 @@
           </div>
 
           <h1 class="app-title"><i class="fab "></i>Workout Tracker</h1>
-      </header>
+      </header> --}}
 
-    <main style="border: solid 3px red;">
+    <main>
+      
+
       {{{ body }}}
+
+     
     </main>
+
+
+
   </div>
  
     {{#if loggedIn}}
