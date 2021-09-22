@@ -16,7 +16,7 @@ async function deleteFormHandler(event) {
       
       if (response.ok) {
 
-        document.location.replace('/dashboard/');
+        document.location.replace('/dashboard');
 
       } else {
 
@@ -25,4 +25,4 @@ async function deleteFormHandler(event) {
     
   }
   
-   document.querySelector('.delete-post-btn').addEventListener('click', deleteFormHandler);
+   document.querySelector('.red').addEventListener('click', deleteFormHandler);

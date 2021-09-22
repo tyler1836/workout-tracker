@@ -1,7 +1,7 @@
-const Users = require('../../models/User');
+const User = require('../../models/User');
 // const Post = require('../../models/Post');
 const router = require('express').Router();
-const { User, Post } = require('sequelize')
+// const { User, Post } = require('sequelize')
 const bcrypt = require('bcrypt');
 
 const loggedIn =(req, res, next) => {
@@ -32,10 +32,12 @@ router.post('/signup', async (req, res) => {
 
   const { username, email, password } = req.body;
 
-  let user = await User.findOne({ email });
-
+  let user = await User.findOne({ 
+    where: {email} 
+  });
+  console.log(user)
   if (user) {
-    return res.redirect('/');
+    return res.redirect('/login');
   }
 
   user = new User({
@@ -43,7 +45,7 @@ router.post('/signup', async (req, res) => {
     email,
     password
   });
-
+  
   await user.save();
 
   res.redirect('/login');
@@ -55,7 +57,7 @@ router.post('/login', async (req, res) => {
   // expects {email: password:}
   const { email, password } = req.body;
   console.log(email, password)
-  const user = await Users.findOne({ 
+  const user = await User.findOne({ 
     where: {email}
    })
   console.log(user)
@@ -72,10 +74,12 @@ router.post('/login', async (req, res) => {
     req.session.user_id = user.id;
     req.session.username = user.username;
     req.session.loggedIn = true;
-    res.json({ user: dbUserData, message: 'You are now logged in!' });
+    res.json({ user: user.username, message: 'You are now logged in!' });
   })
-  res.send('Hello')
-  res.redirect('/dashboard')
+  
+  if(loggedIn){
+    res.redirect('/dashboard')
+  }
 });
 
 

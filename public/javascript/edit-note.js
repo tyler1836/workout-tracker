@@ -25,4 +25,4 @@ async function editFormHandler(event) {
       }
   }
   
-  document.querySelector('.edit-post-form').addEventListener('submit', editFormHandler);
+  document.querySelector('.orange').addEventListener('submit', editFormHandler);
