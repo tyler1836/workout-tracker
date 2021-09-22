@@ -62,7 +62,7 @@ router.post('/login', async (req, res) => {
    })
   console.log(user)
   if (!user) {
-    return res.redirect('/signup')
+    return res.redirect('/api/signup')
   }
 
   const matchPass = await bcrypt.compare(password, user.password)

@@ -1,7 +1,7 @@
 async function loginFormHandler(event) {
     event.preventDefault();
   
-    const email = document.querySelector('#email-login').value.trim();
+    try{const email = document.querySelector('#email-login').value.trim();
     // const username = document.querySelector('#username-signup').value.trim();
     const password = document.querySelector('#password-login').value.trim();
   
@@ -22,6 +22,7 @@ async function loginFormHandler(event) {
         alert(response.statusText);
       }
     }
+   } catch(err){ throw(err); }
   }
 
   document.querySelector('.yellow').addEventListener('click', loginFormHandler);
