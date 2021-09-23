@@ -8,7 +8,7 @@ async function signupFormHandler(event) {
 
     //route to signup page
     if (email && password && username) {
-        const response = await fetch('/api/users', {
+        const response = await fetch('/api/signup', {
             method: 'POST',
             body: JSON.stringify({
                 username,
@@ -21,7 +21,7 @@ async function signupFormHandler(event) {
             console.log('success');
 
 
-            document.location.replace('/dashboard');
+            document.location.replace('/api/dashboard');
 
         } else {
             alert(response.statusText);
@@ -29,4 +29,10 @@ async function signupFormHandler(event) {
     }
 }
 
-document.querySelector('#signup-form').addEventListener('submit', signupFormHandler);
+// document.querySelector('.signup-form').addEventListener('submit', signupFormHandler);
+
+// fixes NULL by executing after the DOM fully loads
+var el = document.querySelector('.signup-form');
+if (el) {
+	el.addEventListener('submit', signupFormHandler, false);
+}

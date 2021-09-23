@@ -12,17 +12,24 @@ router.get('/error', (req, res) => {
 });
 
 
+
+
 router.post('/logout', (req, res) =>{
     if(req.session.loggedIn){
       req.session.destroy(()=>{
         res.status(204).end();
+       
       });
     }
     else{
       res.status(404).end();
     }
-
-    res.redirect('/')
   });
+
+  router.get('/logout', (req, res)=> {
+    res.render('goodbyepage')
+  });
+
+
 
 module.exports = router;

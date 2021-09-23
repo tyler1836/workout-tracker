@@ -6,13 +6,14 @@
     </div>
 
     <ul class="navbar">
-        <li><a href="/api/login">LOGIN</a></li>
-        {{#if session.loggedIn}} <li><a href="/">LOGOUT</a></li> {{/if}}
-        {{!-- <li><a href="/api/logout">LOGOUT</a></li> --}}
-        <li><a href="/api/signup">SIGNUP</a></li>
-        <li><a href="/api/dashboard">DASHBOARD</a></li>
-        <li><a href="https://www.muscleandfitness.com/workout-plan/workouts/workout-routines/complete-mf-beginners-training-guide-plan/" target="_blank" rel="noopener norefferer">PROGRAMS</a></li>
-        <li><a href="https://github.com/tyler1836/workout-tracker/blob/develop/README.md" target="_blank" rel="noopener norefferer">CONTACT</a></li>
+        {{#unless session.loggedIn}} <li><a href="/api/login">LOGIN</a></li>{{/unless}}
+        {{#if session.loggedIn}} <li><a href="/logout" id="logout">LOGOUT</a></li> {{/if}}
+        {{#unless session.loggedIn}} <li><a href="/api/signup">SIGNUP</a></li>{{/unless}}
+        {{#if session.loggedIn}} <li><a href="/api/dashboard">DASHBOARD</a></li>{{/if}}
+        <li><a href="https://www.muscleandfitness.com/workout-plan/workouts/workout-routines/complete-mf-beginners-training-guide-plan/"
+                target="_blank" rel="noopener norefferer">PROGRAMS</a></li>
+        <li><a href="https://github.com/tyler1836/workout-tracker/blob/develop/README.md" target="_blank"
+                rel="noopener norefferer">CONTACT</a></li>
     </ul>
 
 </div>
