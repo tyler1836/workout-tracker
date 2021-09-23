@@ -22,7 +22,7 @@ router.post('/logout', (req, res) =>{
       res.status(404).end();
     }
 
-    res.redirect('/startpage')
+    res.redirect('/')
   });
 
 module.exports = router;

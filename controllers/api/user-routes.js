@@ -5,7 +5,7 @@ const router = require('express').Router();
 const bcrypt = require('bcrypt');
 
 const loggedIn =(req, res, next) => {
-  console.log(req.session.loggedIn)
+  console.log(req.session.loggedIn, '-----------')
   if(req.session.loggedIn){
     next();
   }
@@ -62,24 +62,24 @@ router.post('/login', async (req, res) => {
    })
   console.log(user)
   if (!user) {
-    return res.redirect('/api/signup')
+    res.redirect('/api/signup')
   }
 
   const matchPass = await bcrypt.compare(password, user.password)
   
   if (!matchPass) {
-    return res.redirect('/login')
+    res.redirect('/api/login')
   }
-  await req.session.save(() => {
+  req.session.save(() => {
     req.session.user_id = user.id;
     req.session.username = user.username;
     req.session.loggedIn = true;
     res.json({ user: user.username, message: 'You are now logged in!' });
   })
   
-  if(loggedIn){
-    res.redirect('/dashboard')
-  }
+  // if(loggedIn){
+  //   res.redirect('/api/dashboard')
+  // }
 });
 
 
