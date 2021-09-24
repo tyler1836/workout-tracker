@@ -1,9 +1,10 @@
 const User = require('../../models/User');
-// const Post = require('../../models/Post');
+const Post = require('../../models/Post');
 const router = require('express').Router();
 // const { User, Post } = require('sequelize')
 const bcrypt = require('bcrypt');
 const chalk = require('chalk');
+
 
 const loggedIn =(req, res, next) => {
   console.log(req.session.loggedIn, '-----------')
@@ -25,6 +26,12 @@ router.get('/signup', (req, res) => {
 });
 
 router.get('/dashboard', loggedIn, (req, res)=> {
+  Post.findAll({
+    attributes: ['title'],
+    where: {
+      user_id: req.session.user_id
+    }
+  })
   res.render('notespage')
 });
 

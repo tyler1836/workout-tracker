@@ -1,20 +1,20 @@
 async function commentFormHandler(event) {
     event.preventDefault();
 
-    const title = document.querySelector('.title').value.trim();
-    const comment_text = document.querySelector('.comment').value.trim();
+    const title = document.querySelector('#title').value.trim();
+    const post_text = document.querySelector('#comment_text').value.trim();
   
     const post_id = window.location.toString().split('/')[
       window.location.toString().split('/').length - 1
     ];
   
     if (title && comment_text) {
-        const response = await fetch('/api/comments', {
+        const response = await fetch('/api/posts', {
           method: 'POST',
           body: JSON.stringify({
             post_id,
             title,
-            comment_text
+            post_text
           }),
           headers: {
             'Content-Type': 'application/json'
@@ -22,11 +22,12 @@ async function commentFormHandler(event) {
         });
       
         if (response.ok) {
-          document.location.reload();
+          document.location.reload('/notespage');
         } else {
           alert(response.statusText);
         }
       }
   }
   
-  document.querySelector('.teal').addEventListener('submit', commentFormHandler);
+  var teal = document.querySelector('.teal');
+  if(teal){ teal.addEventListener('click', commentFormHandler);}

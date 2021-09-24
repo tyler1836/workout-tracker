@@ -11,6 +11,8 @@
         <div class="col-1">
           <h2>Saved workouts <span> (click to view)</span></h2>
           <ul class="post-list">
+            {{#with Post}}
+            <li>{{title}}</li>
             <li><a href="#"> Ipsum Dolor Amet Work Outus A Muchas</a></li>
             <li><a href="#"> Ipsum Dolor Amet Work Outus A Muchas</a></li>
             <li><a href="#"> Ipsum Dolor Amet Work Outus A Muchas</a></li>
@@ -18,6 +20,7 @@
             <li><a href="#"> Ipsum Dolor Amet Work Outus A Muchas</a></li>
             <li><a href="#"> Ipsum Dolor Amet Work Outus A Muchas</a></li>
             <li><a href="#"> Ipsum Dolor Amet Work Outus A Muchas</a></li>
+            {{/with}}
           </ul>
 
         </div>
@@ -51,3 +54,4 @@
     {{> footer}}
   </form>
 </div>
+<script src="/javascript/add-note.js"></script>
