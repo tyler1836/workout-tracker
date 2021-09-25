@@ -12,16 +12,11 @@
           <h2>Saved workouts <span> (click to view)</span></h2>
           <ul class="post-list">
             //if has posts
-
             {{#if posts.length}}
             {{#each posts}}
             <li><a href="/api/posts/{{id}}"> {{title}}</a></li>
             {{/each}}
             {{/if}}
-
-
-
-
           </ul>
 
         </div>
