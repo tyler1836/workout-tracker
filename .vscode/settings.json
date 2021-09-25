@@ -8,5 +8,20 @@
         "Seconday",
         "signup",
         "startpage"
+    ],
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "askForPassword": false,
+            "driver": "MySQL",
+            "name": "3306Project2",
+            "username": "Samantha",
+            "database": "notetaker_db"
+        }
     ]
 }
