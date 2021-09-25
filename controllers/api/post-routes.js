@@ -31,17 +31,12 @@ router.get('/:id', (req, res)=> {
         where: {
             id: req.params.id
         },
-        attributes: ['id', 'title'],
+        attributes: ['id', 'post_text', 'title', 'created_at'],
         include: [
             {
                 model: User,
-                attributes: [ 'id',  'post_id', 'user_id'],
-                include: {
-                    model: User,
-                    attributes: ['username']
-                }
-            }
-            
+                attributes: [ 'username']  
+            }  
         ]
     }).then(dbPostData => {
         if (!dbPostData) {
