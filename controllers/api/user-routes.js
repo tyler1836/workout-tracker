@@ -25,15 +25,30 @@ router.get('/signup', (req, res) => {
   res.render('signuppage')
 });
 
-router.get('/dashboard', loggedIn, (req, res)=> {
+//dashboard
+router.get('/dashboard', (req,res)=> {
   Post.findAll({
-    attributes: ['title'],
-    where: {
-      user_id: req.session.user_id
-    }
+      where: {
+          user_id: req.session.user_id
+      },
+      attributes: ['id', 'post_text', 'title', 'created_at'],
+      include: [
+          {
+              model: User,
+              attributes: ['username']
+          }
+      ]
   })
-  res.render('notespage')
+  .then(dbPostData => {
+      const posts = dbPostData.map(post => post.get({ plain: true }));
+      res.render('notespage', { posts, loggedIn: true })
+  })
+  .catch(err => {
+      console.log(err);
+      res.status(500).json(err);
+  })
 });
+
 
 
 // router.post('/signup', async (req, res) => {

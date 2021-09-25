@@ -1,10 +1,30 @@
 const router = require('express').Router();
 const sequelize = require('../../config/connection');
 const { Post, User } = require('../../models');
+const chalk = require('chalk');
 
-router.get('/', (req, res) => {
-    res.render('notespage')
+// router.get('/', (req, res) => {
+//     res.render('notespage')
+// });
+
+router.get('/', (req, res)=> {
+    Post.findAll({
+        attributes: [ 'id', 'title', 'post_text', 'created_at', 'user_id'],
+        include: [
+           
+            {
+                model: User,
+                attributes: ['username']
+            }
+        ]
+    })
+    .then(dbPostData => res.json(dbPostData))
+    .catch(err => {
+        res.status(500).json(err);
+    }); 
+    
 });
+
 
 router.get('/:id', (req, res)=> {
     Post.findOne({

@@ -16,6 +16,7 @@ main {
 .navigation {
 	display: flex;
 	justify-content: space-between;
+	
 }
 
 .navigation .navbar {
@@ -140,6 +141,7 @@ h1 span {
 #note-taker {
 	width: 100%;
 	margin: 60px 0 0 0;
+	
 }
 #note-taker .col-1 {
 	width: 48%;

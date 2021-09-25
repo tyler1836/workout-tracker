@@ -30,6 +30,9 @@ router.post('/logout', (req, res) =>{
     res.render('goodbyepage')
   });
 
-
+//   //render dashboard
+//   router.get('/api/dasboard', (req, res) => {
+//     res.render('notespage')
+// });
 
 module.exports = router;

@@ -3,7 +3,7 @@
 
     {{> navigation}}
 
-<h1>Welcome to the workout tracker dashboard: <span> {{session.username}} </span></h1>
+    <h1>Welcome to the workout tracker dashboard: <span> {{session.username}} </span></h1>
 
     <form class="comment-form">
 
@@ -11,16 +11,17 @@
         <div class="col-1">
           <h2>Saved workouts <span> (click to view)</span></h2>
           <ul class="post-list">
-            {{#with Post}}
-            <li>{{title}}</li>
-            <li><a href="#"> Ipsum Dolor Amet Work Outus A Muchas</a></li>
-            <li><a href="#"> Ipsum Dolor Amet Work Outus A Muchas</a></li>
-            <li><a href="#"> Ipsum Dolor Amet Work Outus A Muchas</a></li>
-            <li><a href="#"> Ipsum Dolor Amet Work Outus A Muchas</a></li>
-            <li><a href="#"> Ipsum Dolor Amet Work Outus A Muchas</a></li>
-            <li><a href="#"> Ipsum Dolor Amet Work Outus A Muchas</a></li>
-            <li><a href="#"> Ipsum Dolor Amet Work Outus A Muchas</a></li>
-            {{/with}}
+            //if has posts
+
+            {{#if posts.length}}
+            {{#each posts}}
+            <li><a href="/api/posts/{{id}}"> {{title}}</a></li>
+            {{/each}}
+            {{/if}}
+
+
+
+
           </ul>
 
         </div>
@@ -32,7 +33,7 @@
           </p>
           <p>
             <label class="label">Post</label>
-            <textarea class="comment"  id="comment_text" placeholder="Workout Description..." ></textarea>
+            <textarea class="comment" id="comment_text" placeholder="Workout Description..."></textarea>
           </p>
           <button class="teal button" id="save" type="submit">
             Save
