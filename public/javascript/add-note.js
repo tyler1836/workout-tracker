@@ -28,6 +28,15 @@ async function commentFormHandler(event) {
         }
       }
   }
+var noteTitle = document.querySelector('#title');
+var noteText = document.querySelector('.comment');
+$('.post-list').on('click', 'li', function(){
+  console.log('anything')
+  console.log($('.title').siblings('.sibling'))
+  var text = $(this)[0].innerHTML;
+  noteTitle.value = text;
   
+})
+
   var teal = document.querySelector('.teal');
   if(teal){ teal.addEventListener('click', commentFormHandler);}

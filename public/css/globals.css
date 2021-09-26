@@ -173,7 +173,7 @@ h1 span {
 	font-size: 22px;
 	margin: 0 0 20px 0;
 }
-#note-taker ul li a {
+#note-taker ul li  {
 	color: rgb(168, 168, 168);
 	display: block;
 	padding: 8px;
@@ -184,7 +184,7 @@ h1 span {
 	width: 85%;
 	letter-spacing: 0.5px;
 }
-#note-taker ul li a:hover {
+#note-taker ul li:hover {
 	color: #fff;
 	border: solid 1px rgb(121, 121, 121);
 }
