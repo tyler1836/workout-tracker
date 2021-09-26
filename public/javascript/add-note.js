@@ -32,9 +32,11 @@ var noteTitle = document.querySelector('#title');
 var noteText = document.querySelector('.comment');
 $('.post-list').on('click', 'li', function(){
   console.log('anything')
-  console.log($('.title').siblings('.sibling'))
-  var text = $(this)[0].innerHTML;
-  noteTitle.value = text;
+  console.log($(this).next('li'))
+  var title = $(this)[0].innerHTML;
+  var text = $(this).next('li')[0].innerHTML;
+  noteTitle.value = title;
+  noteText.value = text;
   
 })
 

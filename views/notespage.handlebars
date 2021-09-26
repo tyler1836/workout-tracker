@@ -14,8 +14,9 @@
             //if has posts
             {{#if posts.length}}
             {{#each posts}}
-            <li class="sibling" style="display: none;"> {{post_text}}</li>
-            <li class="title">{{title}} </li>
+             <li class="title">{{title}} </li>
+            <li class="sibling" style="display: none;" > {{post_text}}</li>
+            
               
               {{!-- <a href="/api/posts/{{id}}"> </a> --}}
             {{/each}}
@@ -27,11 +28,11 @@
         <div class="col-2">
           <p>
             <label class="label">Title</label>
-            <input class="input" type="text" id="title" placeholder="Workout Title...">
+            <input class="input" type="text" id="title" value="{{ posts.title }}"placeholder="Workout Title...">
           </p>
           <p>
             <label class="label">Post</label>
-            <textarea class="comment" id="comment_text" placeholder="Workout Description..."></textarea>
+            <textarea class="comment" id="comment_text" value="{{posts.post_text}}" placeholder="Workout Description..."></textarea>
           </p>
           <button class="teal button" id="save" type="submit">
             Save
