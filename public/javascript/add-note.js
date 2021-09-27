@@ -33,8 +33,10 @@ var noteText = document.querySelector('.comment');
 $('.post-list').on('click', 'li', function(){
   console.log('anything')
   console.log($(this).next('li'))
+  var id = $(this)[0].id;
   var title = $(this)[0].innerHTML;
   var text = $(this).next('li')[0].innerHTML;
+  $(noteTitle).attr('data_id', id);
   noteTitle.value = title;
   noteText.value = text;
   

@@ -23,7 +23,7 @@ router.get('/signup', (req, res) => {
 });
 
 //dashboard
-router.get('/dashboard', (req, res) => {
+router.get('/dashboard', loggedIn, (req, res) => {
 	Post.findAll({
 		where: {
 			user_id: req.session.user_id,

@@ -14,11 +14,11 @@
             //if has posts
             {{#if posts.length}}
             {{#each posts}}
-             <li class="title">{{title}} </li>
-            <li class="sibling" style="display: none;" > {{post_text}}</li>
-            
-              
-              {{!-- <a href="/api/posts/{{id}}"> </a> --}}
+            <li class="title" id={{id}}>{{title}} </li>
+            <li class="sibling" style="display: none;"> {{post_text}}</li>
+
+
+            {{!-- <a href="/api/posts/{{id}}"> </a> --}}
             {{/each}}
             {{/if}}
           </ul>
@@ -28,19 +28,20 @@
         <div class="col-2">
           <p>
             <label class="label">Title</label>
-            <input class="input" type="text" id="title" value="{{ posts.title }}"placeholder="Workout Title...">
+            <input class="input" type="text" id="title" value="{{ posts.title }}" placeholder="Workout Title...">
           </p>
           <p>
             <label class="label">Post</label>
-            <textarea class="comment" id="comment_text" value="{{posts.post_text}}" placeholder="Workout Description..."></textarea>
+            <textarea class="comment" id="comment_text" value="{{posts.post_text}}"
+              placeholder="Workout Description..."></textarea>
           </p>
-          <button class="teal button" id="save" type="submit">
+          <button class="teal button" id="save">
             Save
           </button>
-          <button class="orange button" id="update" type="submit">
+          <button class="orange button" id="update">
             Update
           </button>
-          <button class="red button" id="delete" type="submit">
+          <button class="red button" id="delete" type="button">
             Delete
           </button>
 
@@ -54,7 +55,9 @@
     {{> footer}}
   </form>
 </div>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
 <script src="/javascript/add-note.js"></script>
+<script src="/javascript/delete-note.js"></script>
+<script src="/javascript/edit-note.js"></script>

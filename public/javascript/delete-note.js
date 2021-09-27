@@ -3,12 +3,10 @@ async function deleteFormHandler(event) {
     event.preventDefault();
 
     //routes to notes
+    const id = $('#title').attr('data_id')
     const response = await fetch(`/api/posts/${id}`, {
         //deleting active note
         method: 'DELETE',
-        body: JSON.stringify({
-        post_id: id
-        }),
         headers: {
           'Content-Type': 'application/json'
         }
@@ -16,7 +14,7 @@ async function deleteFormHandler(event) {
       
       if (response.ok) {
 
-        document.location.replace('/dashboard');
+        document.location.replace('/api/dashboard');
 
       } else {
 
@@ -25,4 +23,6 @@ async function deleteFormHandler(event) {
     
   }
   
-   document.querySelector('.red').addEventListener('click', deleteFormHandler);
+  //  document.querySelector('.red').addEventListener('click', deleteFormHandler);
+
+   $('.red').on('click', deleteFormHandler)
