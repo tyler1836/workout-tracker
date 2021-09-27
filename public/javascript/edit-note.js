@@ -1,11 +1,9 @@
 async function editFormHandler(event) {
 	event.preventDefault();
 
-	const title = document.querySelector('title').value;
-	const post_text = document.querySelector('comment_text').value;
-	const id = window.location.toString().split('/')[
-		window.location.toString().split('/').length - 1
-	];
+	const title = document.querySelector('#title').value;
+	const post_text = document.querySelector('#comment_text').value.trim();
+	const id = $('#title').attr('data_id')
 
 	const response = await fetch(`/api/posts/${id}`, {
 		method: 'PUT',
@@ -19,10 +17,10 @@ async function editFormHandler(event) {
 	});
 
 	if (response.ok) {
-		document.location.replace('/dashboard/');
+		document.location.replace('/api/dashboard');
 	} else {
 		alert(response.statusText);
 	}
 }
 
-document.querySelector('.orange').addEventListener('submit', editFormHandler);
+$('.orange').on('click', editFormHandler)
