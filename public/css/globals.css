@@ -22,7 +22,7 @@ main {
 /* navigation.handlebars */
 .navigation {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     margin: 10mm;
 }
 
@@ -47,6 +47,10 @@ main {
 /* stickman */
 .stickman {
     margin: 40px 0 40px;
+}
+
+.stickman-image {
+	max-width: 100vw;
 }
 
 .button-row {
@@ -278,93 +282,43 @@ input:focus {
     width: 100%;
 }
 
-/* 
+ 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-/* @media all and (max-width: 1200px) {
+@media all and (max-width: 1200px) {
     .navigation {
         max-width: 1200px;
     }
-} */
+}
 
 /* Large devices (laptops/desktops, 992px and up) */
-/* @media all and (max-width: 992px) {
+@media all and (max-width: 992px) {
     .navigation {
         max-width: 992px;
-    } */
-/* } */
+    } 
+}
 
 
 /* Medium devices (landscape tablets, 768px and up) */
-/* @media all and (max-width: 768px) {
+@media all and (max-width: 768px) {
     .navigation {
         max-width: 768px;
 
     }
-} */
+}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-/* @media all and (max-width: 600px) {
+@media all and (max-width: 600px) {
     .navigation{
         max-width: 600px;
     }
-} */
+}
 
 
-/* Extra small devices  */
-/* @media all and (max-width: 400px) { */
-
-/* navigation.handlebars */
-/* .navigation {
-        max-width: 400px;
-    }
-} */
-/* 
-// No media query necessary for xs breakpoint as it's effectively `@media (max-width: 0) { ... }` */
 /* @include media-breakpoint-down(sm) { */
 @media all and (max-width: 400px) {
     .navigation {
-        display: block;
-    }
-}
-
-/* // Example: Style from medium breakpoint and down */
-/* @include media-breakpoint-down(md) { */
-@media all and (max-width: 600px) {
-    .navigation {
-        display: block;
-    }
-}
-
-/* @include media-breakpoint-down(lg) {  */
-@media all and (max-width: 768px) {
-
-    /* @include media-breakpoint-down(md) { */
-    .navigation {
-        display: block;
-    }
-}
-
-/* @include media-breakpoint-down(xl) { */
-@media all and (max-width: 992px) {
-
-    /* @include media-breakpoint-down(md) { */
-    .navigation {
-        display: block;
-    }
-}
-
-/* @include media-breakpoint-down(xxl) {  */
-@media all and (max-width: 1200px) {
-    /* // Example: Style from medium breakpoint and down
-@include media-breakpoint-down(md) { */
-    .navigation {
-        display: block;
-    }
-}
-
-/* @include media-breakpoint-down(md) { */
-@media all and (max-width: 1800px) {
-    .navigation {
-        display: block;
+        /* display: flex;
+		justify-content: flex */
+		outline-color: #c40ed4 !important;
     }
 }
