@@ -282,43 +282,41 @@ input:focus {
     width: 100%;
 }
 
- 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media all and (max-width: 1200px) {
+@media all and (max-width: 100%) {
     .navigation {
-        max-width: 1200px;
+        max-width: 90%;
     }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media all and (max-width: 992px) {
+@media all and (max-width: 90%) {
     .navigation {
-        max-width: 992px;
+        max-width: 80%;
     } 
 }
 
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media all and (max-width: 768px) {
+@media all and (max-width: 80%) {
     .navigation {
-        max-width: 768px;
+        max-width: 72%;
 
     }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media all and (max-width: 600px) {
+@media all and (max-width: 70%) {
     .navigation{
-        max-width: 600px;
+        max-width: 65%;
     }
 }
 
 
 /* @include media-breakpoint-down(sm) { */
-@media all and (max-width: 400px) {
+@media all and (max-width: 60%) {
     .navigation {
-        /* display: flex;
-		justify-content: flex */
-		outline-color: #c40ed4 !important;
+        max-width: 50%;
+    
     }
 }
