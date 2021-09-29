@@ -1,5 +1,5 @@
 <div class="container-center-horizontal">
-  <form class="screen">
+  <div class="screen">
 
     {{> navigation}}
 
@@ -16,9 +16,6 @@
             {{#each posts}}
             <li class="title" id={{id}}>{{title}} </li>
             <li class="sibling" style="display: none;"> {{post_text}}</li>
-
-
-            {{!-- <a href="/api/posts/{{id}}"> </a> --}}
             {{/each}}
             {{/if}}
           </ul>
@@ -50,10 +47,11 @@
       </div>
 
     </form>
+    <div class="placer"><img src="/img/placer.png"></div>
 
 
     {{> footer}}
-  </form>
+  </div>
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
