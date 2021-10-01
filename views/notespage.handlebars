@@ -1,0 +1,61 @@
+<div class="container-center-horizontal">
+  <div class="screen">
+
+    {{> navigation}}
+
+    <h1>Welcome to the workout tracker dashboard: <span> {{session.username}} </span></h1>
+
+    <form class="comment-form">
+
+      <div class="grid" id="note-taker">
+        <div class="col-1">
+          <h2>Saved workouts <span> (click to view)</span></h2>
+          <ul class="post-list">
+            //if has posts
+            {{#if posts.length}}
+            {{#each posts}}
+            <li class="title" id={{id}}>{{title}} </li>
+            <li class="sibling" style="display: none;"> {{post_text}}</li>
+            {{/each}}
+            {{/if}}
+          </ul>
+
+        </div>
+
+        <div class="col-2">
+          <p>
+            <label class="label">Title</label>
+            <input class="input" type="text" id="title" value="{{ posts.title }}" placeholder="Workout Title...">
+          </p>
+          <p>
+            <label class="label">Post</label>
+            <textarea class="comment" id="comment_text" value="{{posts.post_text}}"
+              placeholder="Workout Description..."></textarea>
+          </p>
+          <button class="teal button" id="save">
+            Save
+          </button>
+          <button class="orange button" id="update">
+            Update
+          </button>
+          <button class="red button" id="delete" type="button">
+            Delete
+          </button>
+
+        </div>
+
+      </div>
+
+    </form>
+    <div class="placer"><img src="/img/placer.png"></div>
+
+
+    {{> footer}}
+  </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
+<script src="/javascript/add-note.js"></script>
+<script src="/javascript/delete-note.js"></script>
+<script src="/javascript/edit-note.js"></script>

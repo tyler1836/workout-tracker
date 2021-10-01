@@ -1,0 +1,19 @@
+<div class="navigation">
+    {{!-- logo --}}
+    <div class="logo">
+        <a href="/"><img class="workout-tracker smart-layers-pointers" src="/img/workout-tracker@1x.png" />
+        </a>
+    </div>
+
+    <ul class="navbar">
+        {{#unless session.loggedIn}} <li><a href="/api/login">LOGIN</a></li>{{/unless}}
+        {{#if session.loggedIn}} <li><a href="/logout" id="logout">LOGOUT</a></li> {{/if}}
+        {{#unless session.loggedIn}} <li><a href="/api/signup">SIGNUP</a></li>{{/unless}}
+        {{#if session.loggedIn}} <li><a href="/api/dashboard">DASHBOARD</a></li>{{/if}}
+        <li><a href="https://www.muscleandfitness.com/workout-plan/workouts/workout-routines/complete-mf-beginners-training-guide-plan/"
+                target="_blank" rel="noopener norefferer">PROGRAMS</a></li>
+        <li><a href="https://github.com/tyler1836/workout-tracker/blob/develop/README.md" target="_blank"
+                rel="noopener norefferer">CONTACT</a></li>
+    </ul>
+
+</div>
