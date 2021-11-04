@@ -9,9 +9,10 @@ const loggedIn = (req, res, next) => {
 	console.log(req.session.loggedIn, '-----------');
 	if (req.session.loggedIn) {
 		next();
-	} else {
-		res.redirect('/login');
-	}
+	 } 
+	//else {
+	// 	res.redirect('/api/login');
+	// }
 };
 
 router.get('/login', (req, res) => {
@@ -107,7 +108,7 @@ router.post('/login', async (req, res) => {
 	}
 
 	const matchPass = await bcrypt.compare(password, user.password);
-
+	console.log(matchPass)
 	if (!matchPass) {
 		res.redirect('/api/login');
 	}
